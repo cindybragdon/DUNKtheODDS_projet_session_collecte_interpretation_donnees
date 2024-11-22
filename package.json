@@ -1,0 +1,12 @@
+{
+  "name": "tpfinal",
+  "version": "1.0.0",
+  "description": "tp final collecte de données",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "npm run",
+    "test": "npm test"
+  },
+  "author": "the json 4",
+  "license": "ISC"
+}
