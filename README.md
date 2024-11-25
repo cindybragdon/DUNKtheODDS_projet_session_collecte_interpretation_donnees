@@ -18,7 +18,7 @@
 
 - [Contexte du travail](#contexte-du-travail)
 - [Outils et Technologies utilises](#outils-et-technologies-utilises)
-- [Couverture de test et Jacoco](#couverture-de-test-et-jacoco)
+- [Installation et mise en route](#installation-et-mise-en-route)
 - [Couverture de test garantie](#couverture-de-test-garantie)
 - [Accès](#accès)
 - [Variables environnement](#variables-environnement)
@@ -80,18 +80,113 @@ Développement d’un service de collecte, traitement et Stockage de données av
   </tr>
 </table>
 
+---
 
+## Installation et mise en route
+:test_tube: <br>
+## **Prérequis**  
+
+1. **Node.js** : Assurez-vous d'avoir [Node.js](https://nodejs.org/) installé sur votre machine (version LTS recommandée).  
+2. **MongoDB** : Installez et configurez MongoDB ([guide officiel](https://www.mongodb.com/docs/manual/installation/)).  
+3. **Git** : Assurez-vous que Git est installé ([téléchargement ici](https://git-scm.com/downloads)).  
+4. **Postman** : (Facultatif) Utilisez Postman pour tester les endpoints de l'API.  
 
 ---
 
-## Couverture de test et Jacoco
-:test_tube: <br>
-Ajout de tests unitaires pour le code existant, avec une couverture actuelle de %. 
-Pour consulter la couverture des tests , exécutez la commande mvn clean test.  Un fichier index.html sera généré dans Target.  
-SCREENSHOT DE TA HIERARCHIE 
-Double cliquez sur le fichier index.html et choississez votre browser en haut à droite.
-Une page web s'ouvrira et vous pourrez consulter le visuel des tests.  La couverture actuelle est représentée en vert.
-SCREENSHOT DE TON JACOCO ROUGE ET VERT
+## **Étapes d'installation**  
+
+### 1. **Cloner le dépôt**  
+Clonez le projet depuis le dépôt GitHub :  
+
+```bash
+git clone https://github.com/nom-utilisateur/projet.git
+cd projet
+```
+
+### 2. **Configurer les variables d'environnement** 
+Créez un fichier .env à la racine du projet en copiant le fichier .env.example :
+```bash
+cp .env.example .env
+```
+
+Modifiez le fichier .env pour ajouter les informations nécessaires :
+```bash
+MONGO_URI=mongodb://localhost:27017/nom-de-la-base
+JWT_SECRET=une_clé_secrète_pour_les_tokens
+PORT=3000
+```
+
+### 3. Installer les dépendances :
+Installez les dépendances nécessaires pour le serveur et le client :
+
+Pour le backend :
+```bash
+cd backend
+npm install
+```
+
+Pour le frontend :
+```bash
+cd ../frontend
+npm install
+```
+
+### 4. Démarrer MongoDB :
+Démarrez votre serveur MongoDB local :
+```bash
+mongod
+```
+
+### 5. Lancer l'application :
+Démarrer le backend
+Dans le répertoire backend :
+```bash
+npm run dev
+```
+
+Démarrer le frontend
+Dans le répertoire frontend :
+```bash
+npm start
+```
+
+Accéder à l'application :
+L'API est accessible sur http://localhost:3000
+L'application web est accessible sur http://localhost:3001
+
+### 6. Tests Automatisés
+Exécuter les tests
+Backend :
+```bash
+cd backend
+npm test
+```
+
+Frontend :
+```bash
+cd ../frontend
+npm test
+```
+
+Tester l'API avec Postman
+Importez la collection Postman fournie dans le dossier /tests/postman.
+
+### 7. Déploiement
+Pipeline CI/CD
+Configurez un pipeline CI/CD en utilisant un service comme GitHub Actions ou GitLab CI pour automatiser les tests et le déploiement.
+
+Déploiement en production
+Utilisez Docker pour containeriser l'application (Dockerfile fourni).
+Exécutez les conteneurs avec :
+```bash
+docker-compose up -d
+```
+
+Configurez un certificat SSL pour sécuriser le trafic via HTTPS.
+
+### 8. Documentation
+Consultez la documentation de l'API générée via Swagger : http://localhost:3000/api-docs.
+Voir les détails des analyses de données et des fonctionnalités dans le fichier /docs/analysis-report.md.
 
 
 🔝: [Retour en haut](#hautPage)
