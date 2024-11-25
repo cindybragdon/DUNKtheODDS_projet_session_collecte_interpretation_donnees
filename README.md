@@ -189,4 +189,22 @@ Consultez la documentation de l'API générée via Swagger : http://localhost:30
 Voir les détails des analyses de données et des fonctionnalités dans le fichier /docs/analysis-report.md.
 
 
+## Collaborateurs
+
+Voici les incroyables personnes qui ont contribué à ce projet :
+
+<p align="center">
+  <a href="https://github.com/cindybragdon">
+    <img src="https://github.com/cindybragdon.png?size=64" width="64" height="64" alt="Cindy" style="border-radius:50%;">
+  </a>
+  <a href="https://github.com/olivierpoirier">
+    <img src="https://github.com/olivierpoirier.png?size=64" width="64" height="64" alt="Olivier" style="border-radius:50%;">
+  </a>
+  <a href="https://github.com/JennaLeeL">
+    <img src="https://github.com/JennaLeeL.png?size=64" width="64" height="64" alt="Jenna" style="border-radius:50%;">
+  </a>
+</p>
+
+
+
 🔝: [Retour en haut](#hautPage)
