@@ -195,13 +195,16 @@ Voici les incroyables personnes qui ont contribué à ce projet :
 
 <p align="center">
   <a href="https://github.com/cindybragdon">
-    <img src="https://github.com/cindybragdon.png?size=64" width="64" height="64" alt="Cindy" style="border-radius:50%;">
+    <img src="https://github.com/cindybragdon.png?size=64" width="64" height="64" alt="Cindy" style="border-radius: 50%; overflow: hidden;">
   </a>
   <a href="https://github.com/olivierpoirier">
-    <img src="https://github.com/olivierpoirier.png?size=64" width="64" height="64" alt="Olivier" style="border-radius:50%;">
+    <img src="https://github.com/olivierpoirier.png?size=64" width="64" height="64" alt="Olivier" style="border-radius: 50%; overflow: hidden;">
   </a>
   <a href="https://github.com/JennaLeeL">
-    <img src="https://github.com/JennaLeeL.png?size=64" width="64" height="64" alt="Jenna" style="border-radius:50%;">
+    <img src="https://github.com/JennaLeeL.png?size=64" width="64" height="64" alt="Jenna" style="border-radius: 50%; overflow: hidden;">
+  </a>
+  <a href="https://github.com/NotaroNissia">
+    <img src="https://github.com/NotaroNissia.png?size=64" width="64" height="64" alt="Nissia" style="border-radius: 50%; overflow: hidden;">
   </a>
 </p>
 
