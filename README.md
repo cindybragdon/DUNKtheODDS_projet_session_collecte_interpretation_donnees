@@ -1,10 +1,21 @@
 
-# Haut de page
+<div id="haut-de-page"></div>
+
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/1e78fb76-f71f-4d7d-b101-0b829d6c3bd8" alt="Description de l'image">
 </div>
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1e78fb76-f71f-4d7d-b101-0b829d6c3bd8" alt="Description de l'image">
+  <p style="margin-top: 20px;">
+    <a href="https://trello.com/b/K5sGUke5/dunktheodds-projet-session-cid" 
+       target="_blank" 
+       style="text-decoration: none; color: #0066cc; font-size: 18px; font-weight: bold;">
+      Accéder au Trello de l'équipe
+    </a>
+  </p>
+</div>
 
 <h1 align="center"><i> Epreuve Finale </i></h1>
 <h2 align="center">Remis par Team JSON 4</h2>
