@@ -1,5 +1,10 @@
 
-<a name="hautPage"></a>
+# Haut de page
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1e78fb76-f71f-4d7d-b101-0b829d6c3bd8" alt="Description de l'image">
+</div>
+
 
 <h1 align="center"><i> Epreuve Finale </i></h1>
 <h2 align="center">Remis par Team JSON 4</h2>
@@ -33,9 +38,10 @@
 - [Contexte du travail](#contexte-du-travail)
 - [Outils et Technologies utilises](#outils-et-technologies-utilises)
 - [Installation et mise en route](#installation-et-mise-en-route)
-- [Couverture de test garantie](#couverture-de-test-garantie)
-- [Accès](#accès)
-- [Variables environnement](#variables-environnement)
+- [Tests](#tests)
+- [Etapes deploiement](#etapes-deploiement)
+- [Documentation](#documentation)
+
 
 ---
 
@@ -168,7 +174,9 @@ Accéder à l'application :
 L'API est accessible sur http://localhost:3000
 L'application web est accessible sur http://localhost:3001
 
-### 6. Tests Automatisés
+## **Tests**  
+
+### Tests Automatisés
 Exécuter les tests
 Backend :
 ```bash
@@ -182,10 +190,12 @@ cd ../frontend
 npm test
 ```
 
-Tester l'API avec Postman
+### Tester l'API avec Postman
 Importez la collection Postman fournie dans le dossier /tests/postman.
 
-### 7. Déploiement
+## **Etapes deploiement**  
+
+### Déploiement
 Pipeline CI/CD
 Configurez un pipeline CI/CD en utilisant un service comme GitHub Actions ou GitLab CI pour automatiser les tests et le déploiement.
 
@@ -198,7 +208,8 @@ docker-compose up -d
 
 Configurez un certificat SSL pour sécuriser le trafic via HTTPS.
 
-### 8. Documentation
+## **Documentation** 
+
 Consultez la documentation de l'API générée via Swagger : http://localhost:3000/api-docs.
 Voir les détails des analyses de données et des fonctionnalités dans le fichier /docs/analysis-report.md.
 
@@ -206,4 +217,5 @@ Voir les détails des analyses de données et des fonctionnalités dans le fichi
 
 
 
-🔝: [Retour en haut](#hautPage)
+[🔝 Retour en haut](#haut-de-page)
+
