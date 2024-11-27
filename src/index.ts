@@ -60,10 +60,7 @@ app.listen(port, async () => {
     await connectToMongoDatabase(config.DB_PROD_URI)
     console.log("Serveur prod started");
     console.log(`Server is running on port http://localhost:${port}`);
-    const api_key = "P2IWsEF0Qk70Io2LKTMd5yhrGSzoWWKYK2esg3Vh"
-    const urlDetailsGame = `https://api.sportradar.com/nba/trial/v8/en/seasons/2024/REG/standings.json?api_key=${api_key}`;
-    const urlSchedule = `https://api.sportradar.com/nba/trial/v8/en/games/2024/REG/schedule.json?api_key=${api_key}`
-    fetchAllData(urlSchedule);
+    fetchAllData(config.databaseFetchUrl);
   });
 
 /*

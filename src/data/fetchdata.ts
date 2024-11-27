@@ -1,24 +1,15 @@
 import { from } from "rxjs";
 import { config } from "../config/config";
-import { MongoPoints, MongoTeamScore } from "./databaseMongo";
 import { ITeamScore } from "../interfaces/teamScore.interface";
 import { IPoints } from "../interfaces/points.interface";
+import { MongoTeamScore } from "../models/mongoTeamScore.model";
+import { MongoPoints } from "../models/mongoPoints.model";
 
 
 
-const api_key = "P2IWsEF0Qk70Io2LKTMd5yhrGSzoWWKYK2esg3Vh"
 
-//Used to fetch all games
-const urlSchedule = `https://api.sportradar.com/nba/trial/v8/en/games/2024/REG/schedule.json?api_key=${api_key}`
 
-/*
-const options = {
-  method: 'GET',
-  headers: {
-    'Accept': 'application/json'
-  }
-};
-*/
+
 
 function fetchData(url: string) {
   return from(fetch(url).then(response => response.json()));
@@ -37,6 +28,22 @@ function generateEmptyTeamScore(listTeamsScore:ITeamScore[], nameOfTeam:string) 
       }
     );
     listTeamsScore.push(newMongoTeam);
+  }
+}
+
+function generateEmptyPoints(listPointsMongo:IPoints[], listOfTeamNames:string[]) {
+  if(!listPointsMongo.some((points) => points.team1Name === listOfTeamNames[0] && points.team2Name === listOfTeamNames[1])) {
+    const newMongoPoints =  new MongoPoints(
+      {
+        team1Name:listOfTeamNames[0],
+        team2Name:listOfTeamNames[1],
+        team1Points:0,
+        team2Points:0,
+        pointsDifference:0,
+        numberOfPlayedGames:0
+      }
+    );
+    listPointsMongo.push(newMongoPoints);
   }
 }
 
@@ -60,9 +67,6 @@ function addWinsAndLossTeamScore(listTeamsScore:ITeamScore[], game:any) {
       losingTeam.homeLosts +=1;
     }
   }
-}
-function createNewTeamScore(nameOfTeam:string) {
-
 }
 
 
@@ -96,19 +100,8 @@ export function fetchAllData (urlGamesId: string) {
           needsInversion = true;
         }
 
-        if(!listPointsMongo.some((points) => points.team1Name === listOfTeamNames[0] && points.team2Name === listOfTeamNames[1])) {
-          const newMongoPoints =  new MongoPoints(
-            {
-              team1Name:listOfTeamNames[0],
-              team2Name:listOfTeamNames[1],
-              team1Points:0,
-              team2Points:0,
-              pointsDifference:0,
-              numberOfPlayedGames:0
-            }
-          );
-          listPointsMongo.push(newMongoPoints);
-        }
+        generateEmptyPoints(listPointsMongo, listOfTeamNames);
+
         const mongoPointsToModify = listPointsMongo.find((points) => points.team1Name === listOfTeamNames[0] && points.team2Name === listOfTeamNames[1]);
         if(mongoPointsToModify) {
           if(!needsInversion){
@@ -127,10 +120,6 @@ export function fetchAllData (urlGamesId: string) {
 
           }
         }
-
-
-
-
       });
 
       //console.log(listTeamsScore.toString());
@@ -151,4 +140,4 @@ export function fetchAllData (urlGamesId: string) {
 
 }
 
-fetchAllData(urlSchedule);
+//fetchAllData(urlSchedule);
