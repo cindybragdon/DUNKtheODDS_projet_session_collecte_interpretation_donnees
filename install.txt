@@ -21,3 +21,11 @@ npm install ts-node-dev --save-dev
 npm install -g ts-node
 npm install typescript ts-node-dev @types/node @types/express --save-dev
 npm install --save-dev typescript @types/express @types/node ts-node nodemon
+
+
+//logs
+npm install winston
+
+//Security
+npm install jsonwebtoken bcryptjs
+npm i --save-dev @types/jsonwebtoken @types/bcryptjs
