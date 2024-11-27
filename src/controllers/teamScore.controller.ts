@@ -1,4 +1,3 @@
-
 import { Request, Response } from 'express';
 import { logger } from '../logs/winston';
 import { MongoTeamScoreService } from '../services/teamScore.service';

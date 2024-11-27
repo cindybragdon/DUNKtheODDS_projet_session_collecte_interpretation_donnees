@@ -18,7 +18,7 @@ export function authenticateToken(req: Request, res: Response, next: NextFunctio
       return;
   
     } 
-    const token = header
+    const token = header;
     if (!token) {
       console.log("STATUS 401 : UNAUTHORISED");
       logger.error(`STATUS 401 : ${req.method} ${req.url}`);
@@ -28,7 +28,7 @@ export function authenticateToken(req: Request, res: Response, next: NextFunctio
     } 
     jwt.verify(token, config.jwtSecret, (err: Error) => {
       if (err) {
-        console.log("STATUS 500 : FORBIDDEN");
+        console.log("STATUS 403 : FORBIDDEN");
         logger.error(`STATUS 403 : ${req.method} ${req.url}`);
         res.status(403).send("STATUS 403 : FORBIDDEN")
         return;
@@ -40,10 +40,8 @@ export function authenticateToken(req: Request, res: Response, next: NextFunctio
     console.error(`STATUS 500: Error with ${req.method} ${req.url}`, error)
     res.status(500).send("INTERNAL ERROR");
   }
-
-
 }
-
+/*
 export function authorizeRole(role: string) {
 
     return (req: Request, res: Response, next: NextFunction):void => {
@@ -83,6 +81,8 @@ export function authorizeRole(role: string) {
       console.error(`STATUS 500: Error with ${req.method} ${req.url}`, error)
       res.status(500).send("INTERNAL ERROR");
   }
+      
   } 
 
 }
+  */

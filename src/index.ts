@@ -57,11 +57,11 @@ app.get('/', (req: Request, res: Response) => {
 
 
 app.listen(port, async () => {
-    await connectToMongoDatabase(config.DB_PROD_URI)
-    console.log("Serveur prod started");
-    console.log(`Server is running on port http://localhost:${port}`);
-    fetchAllData(config.databaseFetchUrl);
-  });
+  await connectToMongoDatabase(config.DB_PROD_URI)
+  console.log("Serveur prod started");
+  console.log(`Server is running on port http://localhost:${port}`);
+  fetchAllData(config.databaseFetchUrl);
+});
 
 /*
 

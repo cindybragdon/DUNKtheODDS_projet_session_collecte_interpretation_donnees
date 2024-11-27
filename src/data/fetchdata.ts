@@ -1,15 +1,8 @@
 import { from } from "rxjs";
-import { config } from "../config/config";
 import { ITeamScore } from "../interfaces/teamScore.interface";
 import { IPoints } from "../interfaces/points.interface";
 import { MongoTeamScore } from "../models/mongoTeamScore.model";
 import { MongoPoints } from "../models/mongoPoints.model";
-
-
-
-
-
-
 
 function fetchData(url: string) {
   return from(fetch(url).then(response => response.json()));

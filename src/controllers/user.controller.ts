@@ -10,9 +10,6 @@ import bcrypt from 'bcryptjs';
 //https://mongoosejs.com/docs/api/model.html#Model.find()
 //https://mongoosejs.com/docs/api/model.html#Model.findById()
 
-
-
-
 export class MongoUserController {
 
     public async login(req: Request, res: Response): Promise<void> {
@@ -81,7 +78,7 @@ export class MongoUserController {
                 console.log(userToSignIn)
                 logger.error(`STATUS 400 : ${req.method} ${req.url}`);
                 console.log("STATUS 400: NEW USER NOT ADDED");
-                res.status(400).send("STATUS 400 : ERROR WITH YOUR REQUEST");
+                res.status(400).send("STATUS 400 : EMAIL ALREDY EXIST. PLEASE CONNECT INSTEAD");
                 return;
             }
 
@@ -107,33 +104,33 @@ export class MongoUserController {
 
 
         try{
-        const userId = new mongoose.Types.ObjectId(req.params.id);
+            const userId = new mongoose.Types.ObjectId(req.params.id);
 
-        if(!validateMongoUser(req.body)){
-            logger.error(`STATUS 400 : ${req.method} ${req.url}`);
-            console.log("STATUS 400: NEW USER WASN'T MODIFIED");
-            res.status(400).send("ERROR WITH YOUR REQUEST");
-            return;
-        } 
-    
-        const userToModify = await MongoUser.findById( userId ).exec();
-        if(!userToModify) {
-            logger.error(`STATUS 404 : ${req.method} ${req.url}`);
-            console.log("STATUS 404: USER NOT FOUND");
-            res.status(404).send("USER NOT FOUND");
-            return;
-        } 
-    
-        const response = await MongoUserService.modifyUser(userId, req.body);
-    
-        logger.info(`STATUS 200: ${req.method} ${req.url}`);
-        console.log(`STATUS 200: USER WITH ID ${userId} MODIFIED`);
-        res.status(200).json(response);
+            if(!validateMongoUser(req.body)){
+                logger.error(`STATUS 400 : ${req.method} ${req.url}`);
+                console.log("STATUS 400: NEW USER WASN'T MODIFIED");
+                res.status(400).send("ERROR WITH YOUR REQUEST");
+                return;
+            } 
+        
+            const userToModify = await MongoUser.findById( userId ).exec();
+            if(!userToModify) {
+                logger.error(`STATUS 404 : ${req.method} ${req.url}`);
+                console.log("STATUS 404: USER NOT FOUND");
+                res.status(404).send("USER NOT FOUND");
+                return;
+            } 
+        
+            const response = await MongoUserService.modifyUser(userId, req.body);
+        
+            logger.info(`STATUS 200: ${req.method} ${req.url}`);
+            console.log(`STATUS 200: USER WITH ID ${userId} MODIFIED`);
+            res.status(200).json(response);
 
         } catch(error){
-        logger.error(`STATUS 500: ${req.method} ${req.url}`);
-        console.error(`STATUS 500: Error with ${req.method} ${req.url}`, error)
-        res.status(500).send("INTERNAL ERROR");
+            logger.error(`STATUS 500: ${req.method} ${req.url}`);
+            console.error(`STATUS 500: Error with ${req.method} ${req.url}`, error)
+            res.status(500).send("INTERNAL ERROR");
         }
         
     }

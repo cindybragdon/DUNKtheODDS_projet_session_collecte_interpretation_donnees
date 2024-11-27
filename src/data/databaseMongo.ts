@@ -1,15 +1,5 @@
 import { config } from '../config/config';
-import mongoose, { model, Schema } from "mongoose"
-import { IPoints } from '../interfaces/points.interface';
-import { regexInt, regexPositiveInt } from '../utils/regex';
-import { ITeamScore } from '../interfaces/teamScore.interface';
-
-
-
-
-
-
-
+import mongoose from "mongoose"
 
 export const connectToMongoDatabase = async (database:string) => {
 
