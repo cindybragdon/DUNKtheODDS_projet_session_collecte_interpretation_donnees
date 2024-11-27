@@ -1,0 +1,23 @@
+//Config.ts
+npm install dotenv
+npm i --save-dev @types/node
+
+
+//index
+npm install express fs https
+
+
+//swagger
+npm install swagger-ui-express swagger-jsdoc
+npm install --save-dev @types/swagger-jsdoc
+
+//data
+npm install mongoose
+npm install rxjs
+
+//package
+npm install ts-node --save-dev
+npm install ts-node-dev --save-dev
+npm install -g ts-node
+npm install typescript ts-node-dev @types/node @types/express --save-dev
+npm install --save-dev typescript @types/express @types/node ts-node nodemon

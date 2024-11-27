@@ -4,9 +4,28 @@
   "description": "tp final collecte de données",
   "main": "./src/index.ts",
   "scripts": {
-    "start": "npm run",
+    "start": "ts-node src/index.ts",
     "test": "npm test"
   },
   "author": "the json 4",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "mongoose": "^8.8.3",
+    "rxjs": "^7.8.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.0",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
+  }
 }
