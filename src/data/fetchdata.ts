@@ -3,6 +3,7 @@ import { ITeamScore } from "../interfaces/teamScore.interface";
 import { IPoints } from "../interfaces/points.interface";
 import { MongoTeamScore } from "../models/mongoTeamScore.model";
 import { MongoPoints } from "../models/mongoPoints.model";
+import { MongoUser } from "../models/mongoUser.model";
 
 function fetchData(url: string) {
   return from(fetch(url).then(response => response.json()));
@@ -65,7 +66,8 @@ function addWinsAndLossTeamScore(listTeamsScore:ITeamScore[], game:any) {
 
 
 export function fetchAllData (urlGamesId: string) {
-
+  MongoPoints.collection.drop()
+  MongoTeamScore.collection.drop()
 
   fetchData(urlGamesId).subscribe({
     next(data) {
@@ -116,8 +118,17 @@ export function fetchAllData (urlGamesId: string) {
       });
 
       //console.log(listTeamsScore.toString());
+
+      listTeamsScore.forEach(teamScore => {
+        new MongoTeamScore(teamScore).save()
+      });
       listPointsMongo.sort((mongoPoints1, mongoPoints2) => mongoPoints1.team1Name.localeCompare(mongoPoints2.team1Name));
-      console.log(listPointsMongo.toString());
+
+
+      listPointsMongo.forEach(points => {
+        new MongoPoints(points).save()
+      });
+      //console.log(listTeamsScore.toString());
 
 
     },

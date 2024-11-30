@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import { MongoUserController } from '../controllers/user.controller';
 import express from 'express';
-import { authenticateToken } from '../middlewares/auth.middlewares';
+import { authenticateToken, authorizeUser } from '../middlewares/auth.middlewares';
 
 
 const router = Router();
@@ -13,8 +13,8 @@ router.post('/users/login', mongoUserController.login);
 
 router.post('/users/signIn', mongoUserController.signIn);
 
-router.put('/users', authenticateToken, mongoUserController.modifyUser);
+router.put('/users/:id', authenticateToken, authorizeUser(), mongoUserController.modifyUser);
 
-router.delete('/users', authenticateToken, mongoUserController.deleteUser);
+router.delete('/users/:id', authenticateToken, authorizeUser(), mongoUserController.deleteUser);
 
 export default router;

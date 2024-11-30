@@ -8,6 +8,6 @@ const mongoPointsController = new MongoPointsController();
 
 router.use(express.json()); //Important sinon les jsons post ne marchent pas avec postman
 
-router.get('/teamScores', mongoPointsController.getAllPoints);
+router.get('/points', mongoPointsController.getAllPoints);
 
 export default router;

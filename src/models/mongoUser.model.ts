@@ -6,28 +6,20 @@ import { regexEmail } from "../utils/regex";
 const userSchema = new Schema<IUser>({
 
     username: { 
-        type: String, 
+        type: String,
         required: true
     },
     password: { 
-        type: String, 
+        type: String,
         required: true 
     },
     email: { 
-        type: String, 
+        type: String,
         required:true,
         unique:true,
         validate: {
             validator: (value: string) => regexEmail.test(value.toString()),
             message: 'The email needs to be an email.'
-        }
-    },
-    role: { 
-        type: String, 
-        required:true,
-        enum: {
-            values: ['Gestionnaire', 'Employé'],
-            message: '{VALUE} is not supported'
         }
     }
 });

@@ -9,16 +9,8 @@ const jwt = require('jsonwebtoken');
 export function authenticateToken(req: Request, res: Response, next: NextFunction): void {
 
   try{
-    const header = req.headers['authorization']?.split(' ')[1];
+    const token = req.headers['authorization']?.split(' ')[1];
 
-    if (!header) {
-      console.log("STATUS 401 : UNAUTHORISED");
-      logger.error(`STATUS 401 : ${req.method} ${req.url}`);
-      res.status(401).json({ message: "Unauthorized" });
-      return;
-  
-    } 
-    const token = header;
     if (!token) {
       console.log("STATUS 401 : UNAUTHORISED");
       logger.error(`STATUS 401 : ${req.method} ${req.url}`);
@@ -26,6 +18,7 @@ export function authenticateToken(req: Request, res: Response, next: NextFunctio
       return;
   
     } 
+    console.log(token);
     jwt.verify(token, config.jwtSecret, (err: Error) => {
       if (err) {
         console.log("STATUS 403 : FORBIDDEN");
@@ -41,8 +34,8 @@ export function authenticateToken(req: Request, res: Response, next: NextFunctio
     res.status(500).send("INTERNAL ERROR");
   }
 }
-/*
-export function authorizeRole(role: string) {
+
+export function authorizeUser() {
 
     return (req: Request, res: Response, next: NextFunction):void => {
       try{
@@ -56,7 +49,6 @@ export function authorizeRole(role: string) {
         return;
       }
 
-
       try{
          decoded = jwt.verify(token, config.jwtSecret);
       } catch(error){
@@ -66,10 +58,9 @@ export function authorizeRole(role: string) {
         return;
       }
 
-  
-      console.log(decoded.userToLogin.role);
-  
-      if (role !== decoded.userToLogin.role) {
+      //console.log(decoded.user._id);
+      console.log(decoded)
+      if (decoded.user._id !== req.params.id) {
         console.log("STATUS 403 : FORBIDDEN");
         logger.error(`STATUS 403 : ${req.method} ${req.url}`);
         res.status(403).send("STATUS 403 : FORBIDDEN");
@@ -80,9 +71,7 @@ export function authorizeRole(role: string) {
       logger.error(`STATUS 500: ${req.method} ${req.url}`);
       console.error(`STATUS 500: Error with ${req.method} ${req.url}`, error)
       res.status(500).send("INTERNAL ERROR");
-  }
-      
+    }
   } 
-
 }
-  */
+  

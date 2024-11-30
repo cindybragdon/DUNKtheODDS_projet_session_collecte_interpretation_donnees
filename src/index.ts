@@ -2,7 +2,11 @@ import express, { Request, Response } from 'express';
 import { config } from "./config/config";
 import { connectToMongoDatabase } from './data/databaseMongo';
 import { fetchAllData } from './data/fetchdata';
-
+import { loggerMiddleWare } from './logs/winston';
+import userRoutes from "./routes/user.route"
+import pointsRoutes from "./routes/points.route"
+import teamScoresRoutes from "./routes/teamScore.route"
+import { errorMiddleWaresHandler } from './middlewares/error.middleware';
 const app = express();
 const port = config.port;
 const https = require('https');
@@ -34,22 +38,18 @@ const options = {
   key: fs.readFileSync('key.pem'),
   cert: fs.readFileSync('cert.pem')
 };
-
+*/
 
 
 app.use(loggerMiddleWare);
 
-app.use('/v1/', productRoutes);
+app.use('/', userRoutes);
 
-app.use('/v1/', userRoutes);
+app.use('/', pointsRoutes);
 
-app.use('/v2/', mongoProductRoutes);
-
-app.use('/v2/', mongoUserRoutes);
+app.use('/', teamScoresRoutes);
 
 app.use(errorMiddleWaresHandler);
-
-*/
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Hello TypeScript with Express!');
@@ -57,10 +57,12 @@ app.get('/', (req: Request, res: Response) => {
 
 
 app.listen(port, async () => {
-  await connectToMongoDatabase(config.DB_PROD_URI)
+
+  console.log('MongoDB URL:', process.env.DB_PROD_URI_FINAL);
+  await connectToMongoDatabase(config.DB_PROD_URI_FINAL)
   console.log("Serveur prod started");
   console.log(`Server is running on port http://localhost:${port}`);
-  fetchAllData(config.databaseFetchUrl);
+ // fetchAllData(config.databaseFetchUrl);
 });
 
 /*
