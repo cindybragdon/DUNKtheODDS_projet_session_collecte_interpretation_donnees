@@ -169,3 +169,33 @@
 {"level":"info","message":"STATUS 204: DELETE /users/674a6d4d7026c3abe9289c0a","timestamp":"2024-11-30T01:43:04.353Z"}
 {"level":"info","message":"DELETE /users/674a6d4d7026c3abe9289c0a","timestamp":"2024-11-30T01:43:10.379Z"}
 {"level":"error","message":"STATUS 404 : DELETE /users/674a6d4d7026c3abe9289c0a","timestamp":"2024-11-30T01:43:10.463Z"}
+{"level":"info","message":"GET /points","timestamp":"2024-11-30T03:58:21.545Z"}
+{"level":"info","message":"STATUS 200: GET /points","timestamp":"2024-11-30T03:58:21.940Z"}
+{"level":"info","message":"GET /teamScores","timestamp":"2024-11-30T03:58:52.001Z"}
+{"level":"info","message":"STATUS 200: GET /teamScores","timestamp":"2024-11-30T03:58:52.088Z"}
+{"level":"info","message":"GET /teamScores","timestamp":"2024-11-30T04:00:07.076Z"}
+{"level":"info","message":"STATUS 200: GET /teamScores","timestamp":"2024-11-30T04:00:07.165Z"}
+{"level":"info","message":"PUT /users/674a6d4d7026c3abe9289c0a","timestamp":"2024-11-30T04:01:00.111Z"}
+{"level":"error","message":"STATUS 403 : PUT /users/674a6d4d7026c3abe9289c0a","timestamp":"2024-11-30T04:01:00.141Z"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-11-30T04:01:12.702Z"}
+{"level":"error","message":"STATUS 401 : POST /users/login","timestamp":"2024-11-30T04:01:12.787Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-11-30T04:01:19.106Z"}
+{"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-11-30T04:01:19.524Z"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-11-30T04:01:26.850Z"}
+{"level":"info","message":"STATUS 200: POST /users/login","timestamp":"2024-11-30T04:01:27.115Z"}
+{"level":"info","message":"PUT /users/674a6d4d7026c3abe9289c0a","timestamp":"2024-11-30T04:01:51.875Z"}
+{"level":"error","message":"STATUS 403 : PUT /users/674a6d4d7026c3abe9289c0a","timestamp":"2024-11-30T04:01:51.890Z"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-11-30T04:01:55.504Z"}
+{"level":"info","message":"STATUS 200: POST /users/login","timestamp":"2024-11-30T04:01:55.752Z"}
+{"level":"info","message":"PUT /users/674a6d4d7026c3abe9289c0a","timestamp":"2024-11-30T04:02:04.005Z"}
+{"level":"error","message":"STATUS 403 : PUT /users/674a6d4d7026c3abe9289c0a","timestamp":"2024-11-30T04:02:04.015Z"}
+{"level":"info","message":"PUT /users/674a8e0fef0344af05b19abf","timestamp":"2024-11-30T04:02:20.117Z"}
+{"level":"info","message":"STATUS 200: PUT /users/674a8e0fef0344af05b19abf","timestamp":"2024-11-30T04:02:20.544Z"}
+{"level":"info","message":"DELETE /users/674a6d4d7026c3abe9289c0a","timestamp":"2024-11-30T04:02:47.767Z"}
+{"level":"error","message":"STATUS 403 : DELETE /users/674a6d4d7026c3abe9289c0a","timestamp":"2024-11-30T04:02:47.777Z"}
+{"level":"info","message":"DELETE /users/674a6d4d7026c3abe9289c0a","timestamp":"2024-11-30T04:03:59.398Z"}
+{"level":"error","message":"STATUS 403 : DELETE /users/674a6d4d7026c3abe9289c0a","timestamp":"2024-11-30T04:03:59.403Z"}
+{"level":"info","message":"DELETE /users/674a8e0fef0344af05b19abf","timestamp":"2024-11-30T04:05:27.898Z"}
+{"level":"info","message":"STATUS 204: DELETE /users/674a8e0fef0344af05b19abf","timestamp":"2024-11-30T04:05:28.078Z"}
+{"level":"info","message":"DELETE /users/674a8e0fef0344af05b19abf","timestamp":"2024-11-30T04:05:33.920Z"}
+{"level":"error","message":"STATUS 404 : DELETE /users/674a8e0fef0344af05b19abf","timestamp":"2024-11-30T04:05:34.010Z"}

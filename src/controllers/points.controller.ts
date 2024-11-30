@@ -13,10 +13,10 @@ export class MongoPointsController {
         const points = await MongoPointsService.getAllPoints();
 
         if(!points) {
-            logger.error(`STATUS 404 : ${req.method} ${req.url}`);
-            console.log("STATUS 404: POINTS NOT FOUND");
-            res.status(404).send("POINTS NOT FOUND");
-            return;
+          logger.error(`STATUS 404 : ${req.method} ${req.url}`);
+          console.log("STATUS 404: POINTS NOT FOUND");
+          res.status(404).send("POINTS NOT FOUND");
+          return;
         }
         logger.info(`STATUS 200: ${req.method} ${req.url}`);
         console.log("STATUS 200: GETALLPOINTS WORKED");

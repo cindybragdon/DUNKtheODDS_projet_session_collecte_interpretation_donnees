@@ -59,7 +59,7 @@ export function authorizeUser() {
       }
 
       //console.log(decoded.user._id);
-      console.log(decoded)
+      //console.log(decoded)
       if (decoded.user._id !== req.params.id) {
         console.log("STATUS 403 : FORBIDDEN");
         logger.error(`STATUS 403 : ${req.method} ${req.url}`);
