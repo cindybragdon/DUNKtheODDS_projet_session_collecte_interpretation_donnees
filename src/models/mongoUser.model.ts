@@ -21,7 +21,12 @@ const userSchema = new Schema<IUser>({
             validator: (value: string) => regexEmail.test(value.toString()),
             message: 'The email needs to be an email.'
         }
-    }
+    },
+    role: { 
+        type: String,
+        required:true,
+        enum: ["Admin", "User"]
+    },
 });
 
 export const MongoUser = model<IUser>('User', userSchema);

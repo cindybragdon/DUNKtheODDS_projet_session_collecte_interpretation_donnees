@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import { MongoUserController } from '../controllers/user.controller';
 import express from 'express';
-import { authenticateToken, authorizeUser } from '../middlewares/auth.middlewares';
+import { authenticateToken, authorizeUser, verifyAdminUserRight } from '../middlewares/auth.middlewares';
 
 
 const router = Router();
@@ -11,10 +11,10 @@ router.use(express.json()); //Important sinon les jsons post ne marchent pas ave
 
 router.post('/users/login', mongoUserController.login);
 
-router.post('/users/signIn', mongoUserController.signIn);
+router.post('/users/signIn',verifyAdminUserRight, mongoUserController.signIn);
 
-router.put('/users/:id', authenticateToken, authorizeUser(), mongoUserController.modifyUser);
+router.put('/users/:id', authenticateToken, authorizeUser, verifyAdminUserRight, mongoUserController.modifyUser);
 
-router.delete('/users/:id', authenticateToken, authorizeUser(), mongoUserController.deleteUser);
+router.delete('/users/:id', authenticateToken, authorizeUser, mongoUserController.deleteUser);
 
 export default router;
