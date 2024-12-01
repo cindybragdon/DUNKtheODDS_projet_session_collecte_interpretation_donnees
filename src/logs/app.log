@@ -365,3 +365,9 @@
 {"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-12-01T20:54:52.044Z"}
 {"level":"info","message":"POST /users/signIn","timestamp":"2024-12-01T20:55:02.564Z"}
 {"level":"error","message":"STATUS 403 : POST /users/signIn","timestamp":"2024-12-01T20:55:02.569Z"}
+{"level":"info","message":"GET /points","timestamp":"2024-12-01T21:07:15.293Z"}
+{"level":"info","message":"STATUS 200: GET /points","timestamp":"2024-12-01T21:07:15.675Z"}
+{"level":"info","message":"GET /teamScores","timestamp":"2024-12-01T21:14:55.035Z"}
+{"level":"info","message":"STATUS 200: GET /teamScores","timestamp":"2024-12-01T21:14:55.152Z"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-12-01T21:21:18.149Z"}
+{"level":"error","message":"STATUS 401 : POST /users/login","timestamp":"2024-12-01T21:21:18.302Z"}

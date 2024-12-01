@@ -11,28 +11,3 @@ export const connectToMongoDatabase = async (database:string) => {
     }
     
 }
-
-
-
-
-/*
-export function populateMongoDatabase() {
-
-    MongoProduct.collection.drop()
-    MongoUser.collection.drop()
-
-    
-    const jsonProductArray: IProduct[] = Array.from(JSON.parse(getDataFromFile(config.pathDatabaseProducts)));
-    jsonProductArray.filter(product => {
-        if(validateMongoProduct(product)) new MongoProduct(product).save()
-    });
-    console.log("Mongo table products filled ")
-
-    const jsonUserArray: IUser[] = Array.from(JSON.parse(getDataFromFile(config.pathDatabaseUsers)));
-    jsonUserArray.filter(user => {
-        if(validateMongoUser(user)) new MongoUser(user).save()
-    });
-    console.log("Mongo table users filled ")
-    
-} 
-    */
