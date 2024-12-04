@@ -148,8 +148,7 @@ export class MongoUserController {
 
         try {
 
-            const userId = new mongoose.Types.ObjectId(req.params.id);
-                
+            const userId = new mongoose.Types.ObjectId(req.params.id);   
             const userToDelete = await MongoUser.findById( userId ).exec();
 
             if(!userToDelete) {
