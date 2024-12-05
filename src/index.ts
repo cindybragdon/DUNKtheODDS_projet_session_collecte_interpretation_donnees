@@ -7,6 +7,8 @@ import userRoutes from "./routes/user.route"
 import pointsRoutes from "./routes/points.route"
 import teamScoresRoutes from "./routes/teamScore.route"
 import { errorMiddleWaresHandler } from './middlewares/error.middleware';
+
+const cors = require('cors');
 const app = express();
 const port = config.port;
 const https = require('https');
@@ -30,6 +32,7 @@ const swaggerOptions = {
 // Générer la documentation à partir des options
 const swaggerDocs = swaggerJsdoc(swaggerOptions);
 
+app.use(cors());
 // Servir la documentation Swagger via '/api-docs'
 app.use('/api/', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 

@@ -1,9 +1,9 @@
 import mongoose from "mongoose";
-import { connectToMongoDatabase } from "../src/data/databaseMongo"
-import { MongoUserController } from "../src/controllers/user.controller"
-import { config } from "../src/config/config"
+import { connectToMongoDatabase } from "../../src/data/databaseMongo"
+import { MongoUserController } from "../../src/controllers/user.controller"
+import { config } from "../../src/config/config"
 import { Response, Request} from "express";
-import { MongoUser } from "../src/models/mongoUser.model";
+import { MongoUser } from "../../src/models/mongoUser.model";
 
 //https://basarat.gitbook.io/typescript/intro-1/jest
 const mongoUserController = new MongoUserController();
@@ -146,10 +146,3 @@ describe('LOGIN POST user', () => {
         expect(res.send).toHaveBeenCalledWith(expect.any(String));
     });
 });
-
-
-
-    
-
-
-

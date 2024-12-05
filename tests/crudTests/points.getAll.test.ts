@@ -1,10 +1,10 @@
 import mongoose from "mongoose";
-import { connectToMongoDatabase } from "../src/data/databaseMongo"
-import { MongoPointsController } from "../src/controllers/points.controller"
-import { config } from "../src/config/config"
+import { connectToMongoDatabase } from "../../src/data/databaseMongo"
+import { MongoPointsController } from "../../src/controllers/points.controller"
+import { config } from "../../src/config/config"
 import { Response, Request} from "express";
 import { before } from "node:test";
-import { MongoPoints } from "../src/models/mongoPoints.model";
+import { MongoPoints } from "../../src/models/mongoPoints.model";
 
 //https://basarat.gitbook.io/typescript/intro-1/jest
 const mongoPointsController = new MongoPointsController();
@@ -79,6 +79,3 @@ describe('GET ALL points', () => {
     });
 
 });
-
-
-

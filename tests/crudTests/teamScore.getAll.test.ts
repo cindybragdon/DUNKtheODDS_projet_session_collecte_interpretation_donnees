@@ -1,9 +1,9 @@
 import mongoose from "mongoose";
-import { connectToMongoDatabase } from "../src/data/databaseMongo"
-import { MongoTeamScoreController } from "../src/controllers/teamScore.controller"
-import { config } from "../src/config/config"
+import { connectToMongoDatabase } from "../../src/data/databaseMongo"
+import { MongoTeamScoreController } from "../../src/controllers/teamScore.controller"
+import { config } from "../../src/config/config"
 import { Response, Request} from "express";
-import { MongoTeamScore } from "../src/models/mongoTeamScore.model";
+import { MongoTeamScore } from "../../src/models/mongoTeamScore.model";
 import { before } from "node:test";
 
 //https://basarat.gitbook.io/typescript/intro-1/jest
@@ -79,6 +79,3 @@ describe('GET ALL teamScore', () => {
     });
 
 });
-
-
-
