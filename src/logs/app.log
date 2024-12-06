@@ -1637,3 +1637,10 @@
 {"level":"error","message":"STATUS 404 : GET /teamInfos","timestamp":"2024-12-06T19:08:15.413Z"}
 {"level":"info","message":"GET /teamInfos","timestamp":"2024-12-06T19:08:53.027Z"}
 {"level":"info","message":"STATUS 200: GET /teamInfos","timestamp":"2024-12-06T19:08:54.714Z"}
+{"level":"info","message":"GET /teamInfo","timestamp":"2024-12-06T19:11:10.827Z"}
+{"level":"info","message":"GET /teamInfos","timestamp":"2024-12-06T19:12:33.026Z"}
+{"level":"info","message":"STATUS 200: GET /teamInfos","timestamp":"2024-12-06T19:12:33.126Z"}
+{"level":"info","message":"GET /points","timestamp":"2024-12-06T19:12:39.286Z"}
+{"level":"info","message":"STATUS 200: GET /points","timestamp":"2024-12-06T19:12:39.608Z"}
+{"level":"info","message":"GET /teamInfos","timestamp":"2024-12-06T19:14:14.629Z"}
+{"level":"info","message":"STATUS 200: GET /teamInfos","timestamp":"2024-12-06T19:14:14.729Z"}

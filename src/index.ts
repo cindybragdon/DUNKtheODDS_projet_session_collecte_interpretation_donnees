@@ -65,7 +65,7 @@ app.listen(port, async () => {
   await connectToMongoDatabase(config.DB_PROD_URI_FINAL)
   console.log("Serveur prod started");
   console.log(`Server is running on port http://localhost:${port}`);
-  fetchAllData(config.databaseFetchUrl);
+  //fetchAllData(config.databaseFetchUrl);
 });
 
 /*

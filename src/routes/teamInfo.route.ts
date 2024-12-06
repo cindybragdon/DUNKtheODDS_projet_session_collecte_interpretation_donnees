@@ -12,7 +12,7 @@ router.use(express.json());
 
 /**
  * @swagger
- * /teamInfo:
+ * /teamInfos:
  *   get:
  *     summary: Get all team infos
  *     description: Retrieve all team infos from the database.
