@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import { connectToMongoDatabase } from "../../src/data/databaseMongo"
-import { MongoTeamInfoController } from "../../src/controllers/teamInfo.controller"
+import { MongoTeamInfoController } from "../../src/controllers/teamiNFO.controller"
 import { config } from "../../src/config/config"
 import { Response, Request} from "express";
 import { MongoTeamInfo } from "../../src/models/mongoTeamInfo.model";
