@@ -1,9 +1,9 @@
 import { model, Schema } from "mongoose";
-import { ITeamScore } from "../interfaces/teamScore.interface";
+import { ITeamInfo } from "../interfaces/teamInfo.interface";
 import { regexPositiveInt } from "../utils/regex";
 
-// Create a Schema corresponding to the ITeamScore interface.
-const teamScoreSchema = new Schema<ITeamScore>({
+// Create a Schema corresponding to the ITeamInfo interface.
+const teamInfoSchema = new Schema<ITeamInfo>({
 
   teamName: { 
       type: String, 
@@ -44,11 +44,11 @@ const teamScoreSchema = new Schema<ITeamScore>({
 });
 
 
-// Create a ITeamScore Mongoose Model.
-export const MongoTeamScore = model<ITeamScore>('TeamScores', teamScoreSchema);
+// Create a ITeamInfo Mongoose Model.
+export const MongoTeamInfo = model<ITeamInfo>('TeamInfo', teamInfoSchema);
 
-export function validateMongoTeamScore(teamScore:ITeamScore) {
-    const teamScoreInstance = new MongoTeamScore(teamScore); //Create a teamscore with the data 
-    const validationError = teamScoreInstance.validateSync(); //Return null if the teamscore is valid
+export function validateMongoTeamInfo(teamInfo:ITeamInfo) {
+    const teamInfoInstance = new MongoTeamInfo(teamInfo); //Create a ITeamInfo with the data 
+    const validationError = teamInfoInstance.validateSync(); //Return null if the ITeamInfo is valid
     return !validationError? true : false
 }

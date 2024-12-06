@@ -1,26 +1,26 @@
 import { Request, Response } from 'express';
 import { logger } from '../logs/winston';
-import { MongoTeamScoreService } from '../services/teamScore.service';
+import { MongoTeamInfoService } from '../services/teamInfo.service';
 
 //https://mongoosejs.com/docs/api/model.html#Model.find()
 //https://mongoosejs.com/docs/api/model.html#Model.findById()
 
-export class MongoTeamScoreController {
+export class MongoTeamInfoController {
 
-  public async getAllTeamScores(req: Request, res: Response): Promise<void> {
+  public async getAllTeamInfo(req: Request, res: Response): Promise<void> {
 
     try {
-        const teamScores = await MongoTeamScoreService.getAllTeamScore();
+        const teamInfos = await MongoTeamInfoService.getAllTeamInfo();
 
-        if(!teamScores) {
+        if(!teamInfos || teamInfos.length === 0) {
           logger.error(`STATUS 404 : ${req.method} ${req.url}`);
-          console.log("STATUS 404: TEAM SCORES NOT FOUND");
-          res.status(404).send("TEAM SCORES NOT FOUND");
+          console.log("STATUS 404: TEAM INFO NOT FOUND");
+          res.status(404).json([]);
           return;
         }
         logger.info(`STATUS 200: ${req.method} ${req.url}`);
-        console.log("STATUS 200: GETALLTEAMSCORES WORKED");
-        res.status(200).json(teamScores);
+        console.log("STATUS 200: GETALLTEAMINFO WORKED");
+        res.status(200).json(teamInfos);
   
     } catch(error){
         logger.error(`STATUS 500: ${req.method} ${req.url}`);

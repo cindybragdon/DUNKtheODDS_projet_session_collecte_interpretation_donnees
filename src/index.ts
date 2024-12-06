@@ -5,7 +5,7 @@ import { fetchAllData } from './data/fetchdata';
 import { loggerMiddleWare } from './logs/winston';
 import userRoutes from "./routes/user.route"
 import pointsRoutes from "./routes/points.route"
-import teamScoresRoutes from "./routes/teamScore.route"
+import teamInfoRoutes from "./routes/teamInfo.route"
 import { errorMiddleWaresHandler } from './middlewares/error.middleware';
 
 const cors = require('cors');
@@ -50,7 +50,7 @@ app.use('/', userRoutes);
 
 app.use('/', pointsRoutes);
 
-app.use('/', teamScoresRoutes);
+app.use('/', teamInfoRoutes);
 
 app.use(errorMiddleWaresHandler);
 
@@ -65,7 +65,7 @@ app.listen(port, async () => {
   await connectToMongoDatabase(config.DB_PROD_URI_FINAL)
   console.log("Serveur prod started");
   console.log(`Server is running on port http://localhost:${port}`);
- // fetchAllData(config.databaseFetchUrl);
+  fetchAllData(config.databaseFetchUrl);
 });
 
 /*

@@ -1,4 +1,4 @@
-export interface ITeamScore {
+export interface ITeamInfo {
 
     teamName: string;
     homeWins: number;

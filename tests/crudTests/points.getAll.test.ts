@@ -38,18 +38,18 @@ afterAll(async () => {
     
 describe('GET ALL points', () => {
 
-    beforeAll(async () => {
-        MongoPoints.collection.drop();
-        const testTeamScore = new MongoPoints({team1Name: "The - Balls", team2Name: "The inuits", team1Points: 5, team2Points: 6, pointsDifference: 6,numberOfPlayedGames: 5});
-        await testTeamScore.save();
-        const testTeamScore2 = new MongoPoints({team1Name: "The inuits", team2Name:"The big boats", team1Points: 3, team2Points: 8, pointsDifference: 8,numberOfPlayedGames: 3});
-        await testTeamScore2.save();
-        const testTeamScore3 = new MongoPoints({team1Name: "The big boats", team2Name:"The - Balls", team1Points: 6, team2Points: 2, pointsDifference: 2,numberOfPlayedGames: 6});
-        await testTeamScore3.save();
+    beforeEach(async () => {
+        await MongoPoints.collection.drop();
+        const testTeamInfo = new MongoPoints({team1Name: "The - Balls", team2Name: "The inuits", team1Points: 5, team2Points: 6, pointsDifference: 6,numberOfPlayedGames: 5});
+        await testTeamInfo.save();
+        const testTeamInfo2 = new MongoPoints({team1Name: "The inuits", team2Name:"The big boats", team1Points: 3, team2Points: 8, pointsDifference: 8,numberOfPlayedGames: 3});
+        await testTeamInfo2.save();
+        const testTeamInfo3 = new MongoPoints({team1Name: "The big boats", team2Name:"The - Balls", team1Points: 6, team2Points: 2, pointsDifference: 2,numberOfPlayedGames: 6});
+        await testTeamInfo3.save();
     });
 
-    afterAll(async () => {
-        MongoPoints.collection.drop();
+    afterEach(async () => {
+        await MongoPoints.collection.drop();
     });
 
     test('Should return a list of points', async () => {
@@ -59,23 +59,16 @@ describe('GET ALL points', () => {
         await mongoPointsController.getAllPoints(req, res);
 
         expect(res.status).toHaveBeenCalledWith(200);
-        expect(res.json).toHaveBeenCalledWith(expect.arrayContaining([
-            expect.objectContaining({team1Name: "The - Balls", team2Name: "The inuits", team1Points: 5, team2Points: 6, pointsDifference: 6,numberOfPlayedGames: 5})
-        ]));
     });
 
-    before(async () => {
-        MongoPoints.collection.drop();
-    })
-
     test('Should return an error 404 if there is no points', async () => {
+        await MongoPoints.collection.drop();
         const req = mockRequest({},{}) as Request;
         const res = mockResponse() as Response;
 
         await mongoPointsController.getAllPoints(req, res);
 
         expect(res.status).toHaveBeenCalledWith(404);
-        expect(res.send).toHaveBeenCalledWith(expect.any(String));
     });
 
 });

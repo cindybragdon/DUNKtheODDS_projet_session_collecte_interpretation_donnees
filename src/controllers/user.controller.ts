@@ -92,7 +92,6 @@ export class MongoUserController {
             console.error(`STATUS 500: Error with ${req.method} ${req.url}`, error)
             res.status(500).send("INTERNAL ERROR");
         }
-    
     };
 
 
@@ -100,6 +99,15 @@ export class MongoUserController {
 
 
         try{
+
+
+            if(!mongoose.Types.ObjectId.isValid(req.params.id)){
+                logger.error(`STATUS 400 : ${req.method} ${req.url}`);
+                console.log("STATUS 400: NEW USER WASN'T MODIFIED");
+                res.status(400).send("ERROR WITH YOUR REQUEST ID");
+                return;
+            } 
+
             const userId = new mongoose.Types.ObjectId(req.params.id);
 
             if(!validateMongoUser(req.body)){
@@ -148,8 +156,17 @@ export class MongoUserController {
 
         try {
 
+
+            if(!mongoose.Types.ObjectId.isValid(req.params.id)){
+                logger.error(`STATUS 400 : ${req.method} ${req.url}`);
+                console.log("STATUS 400: NEW USER WASN'T MODIFIED");
+                res.status(400).send("ERROR WITH YOUR REQUEST ID");
+                return;
+            } 
+
             const userId = new mongoose.Types.ObjectId(req.params.id);   
             const userToDelete = await MongoUser.findById( userId ).exec();
+
 
             if(!userToDelete) {
         

@@ -1,7 +1,7 @@
 import { from } from "rxjs";
-import { ITeamScore } from "../interfaces/teamScore.interface";
+import { ITeamInfo } from "../interfaces/teamInfo.interface";
 import { IPoints } from "../interfaces/points.interface";
-import { MongoTeamScore } from "../models/mongoTeamScore.model";
+import { MongoTeamInfo } from "../models/mongoTeamInfo.model";
 import { MongoPoints } from "../models/mongoPoints.model";
 import { MongoUser } from "../models/mongoUser.model";
 
@@ -10,9 +10,9 @@ function fetchData(url: string) {
 }
 
 
-function generateEmptyTeamScore(listTeamsScore:ITeamScore[], nameOfTeam:string) {
-  if(!listTeamsScore.some((team) => team.teamName === nameOfTeam)) {
-    const newMongoTeam =  new MongoTeamScore(
+function generateEmptyTeamInfo(listTeamsInfo:ITeamInfo[], nameOfTeam:string) {
+  if(!listTeamsInfo.some((team) => team.teamName === nameOfTeam)) {
+    const newMongoTeam =  new MongoTeamInfo(
       {
         teamName:nameOfTeam,
         homeWins:0,
@@ -21,7 +21,7 @@ function generateEmptyTeamScore(listTeamsScore:ITeamScore[], nameOfTeam:string) 
         awayLosts:0
       }
     );
-    listTeamsScore.push(newMongoTeam);
+    listTeamsInfo.push(newMongoTeam);
   }
 }
 
@@ -41,10 +41,10 @@ function generateEmptyPoints(listPointsMongo:IPoints[], listOfTeamNames:string[]
   }
 }
 
-function addWinsAndLossTeamScore(listTeamsScore:ITeamScore[], game:any) {
+function addWinsAndLossTeamInfo(listTeamsInfo:ITeamInfo[], game:any) {
   if(game.home_points > game.away_points) {
-    const winningTeam = listTeamsScore.find(team => team.teamName === game.home.name);
-    const losingTeam = listTeamsScore.find(team => team.teamName === game.away.name);
+    const winningTeam = listTeamsInfo.find(team => team.teamName === game.home.name);
+    const losingTeam = listTeamsInfo.find(team => team.teamName === game.away.name);
     if(winningTeam) {
       winningTeam.homeWins += 1;
     }
@@ -52,8 +52,8 @@ function addWinsAndLossTeamScore(listTeamsScore:ITeamScore[], game:any) {
       losingTeam.awayLosts +=1;
     }
   } else {
-    const winningTeam = listTeamsScore.find(team => team.teamName === game.away.name);
-    const losingTeam = listTeamsScore.find(team => team.teamName === game.home.name);
+    const winningTeam = listTeamsInfo.find(team => team.teamName === game.away.name);
+    const losingTeam = listTeamsInfo.find(team => team.teamName === game.home.name);
     if(winningTeam) {
       winningTeam.awayWins += 1;
     }
@@ -67,22 +67,22 @@ function addWinsAndLossTeamScore(listTeamsScore:ITeamScore[], game:any) {
 
 export function fetchAllData (urlGamesId: string) {
   MongoPoints.collection.drop()
-  MongoTeamScore.collection.drop()
+  MongoTeamInfo.collection.drop()
 
   fetchData(urlGamesId).subscribe({
     next(data) {
 
       let listGames: any[] = data.games || [];
-      let listTeamsScore:ITeamScore[] = [];
+      let listTeamsInfo:ITeamInfo[] = [];
       let listPointsMongo:IPoints[] = [];
 
       listGames.forEach((game) => {
 
         const nameOfHomeTeam = game.home.name;
         const nameOfAwayTeam = game.away.name;
-        generateEmptyTeamScore(listTeamsScore, nameOfHomeTeam);
-        generateEmptyTeamScore(listTeamsScore, nameOfAwayTeam);
-        addWinsAndLossTeamScore(listTeamsScore, game);
+        generateEmptyTeamInfo(listTeamsInfo, nameOfHomeTeam);
+        generateEmptyTeamInfo(listTeamsInfo, nameOfAwayTeam);
+        addWinsAndLossTeamInfo(listTeamsInfo, game);
 
         
         const listOfTeamNames: string[] = [nameOfHomeTeam, nameOfAwayTeam];
@@ -119,8 +119,8 @@ export function fetchAllData (urlGamesId: string) {
 
       //console.log(listTeamsScore.toString());
 
-      listTeamsScore.forEach(teamScore => {
-        new MongoTeamScore(teamScore).save()
+      listTeamsInfo.forEach(teamInfo => {
+        new MongoTeamInfo(teamInfo).save()
       });
       listPointsMongo.sort((mongoPoints1, mongoPoints2) => mongoPoints1.team1Name.localeCompare(mongoPoints2.team1Name));
 

@@ -1,10 +1,10 @@
 import { Router } from 'express';
 import express from 'express';
-import { MongoTeamScoreController } from '../controllers/teamScore.controller';
+import { MongoTeamInfoController } from '../controllers/teamiNFO.controller';
 
 
 const router = Router();
-const mongoTeamScoreController = new MongoTeamScoreController();
+const mongoTeamInfoController = new MongoTeamInfoController();
 
 router.use(express.json());
 
@@ -12,21 +12,21 @@ router.use(express.json());
 
 /**
  * @swagger
- * /teamScores:
+ * /teamInfo:
  *   get:
- *     summary: Get all team scores
- *     description: Retrieve all team scores from the database.
+ *     summary: Get all team infos
+ *     description: Retrieve all team infos from the database.
  *     tags:
- *       - TeamScores
+ *       - TeamInfos
  *     responses:
  *       200:
- *         description: A list of team scores.
+ *         description: A list of team infos.
  *         content:
  *           application/json:
  *             schema:
  *               type: array
  *               items:
- *                 $ref: '#/components/schemas/TeamScore'
+ *                 $ref: '#/components/schemas/TeamInfo'
  *             example:
  *               - teamName: "Team A"
  *                 homeWins: 10
@@ -39,12 +39,12 @@ router.use(express.json());
  *                 awayWins: 9
  *                 awayLosts: 4
  *       404:
- *         description: Team scores not found.
+ *         description: Team infos not found.
  *         content:
  *           text/plain:
  *             schema:
  *               type: string
- *             example: "TEAM SCORES NOT FOUND"
+ *             example: "TEAM INFOS NOT FOUND"
  *       500:
  *         description: Internal server error.
  *         content:
@@ -53,7 +53,7 @@ router.use(express.json());
  *               type: string
  *             example: "INTERNAL ERROR"
  */
-router.get('/teamScores', mongoTeamScoreController.getAllTeamScores);
+router.get('/teamInfos', mongoTeamInfoController.getAllTeamInfo);
 
 
 
@@ -62,7 +62,7 @@ router.get('/teamScores', mongoTeamScoreController.getAllTeamScores);
  * @swagger
  * components:
  *   schemas:
- *     TeamScore:
+ *     TeamInfo:
  *       type: object
  *       properties:
  *         teamName:

@@ -371,3 +371,1269 @@
 {"level":"info","message":"STATUS 200: GET /teamScores","timestamp":"2024-12-01T21:14:55.152Z"}
 {"level":"info","message":"POST /users/login","timestamp":"2024-12-01T21:21:18.149Z"}
 {"level":"error","message":"STATUS 401 : POST /users/login","timestamp":"2024-12-01T21:21:18.302Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T16:59:51.357Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.398Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.406Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.408Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.410Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.412Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.414Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.416Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T16:59:51.459Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T16:59:51.477Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T16:59:51.475Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T16:59:51.490Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T16:59:51.546Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T16:59:51.563Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T16:59:51.571Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T16:59:51.561Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T16:59:51.572Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.651Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.654Z"}
+{"level":"error","message":"STATUS 500: undefined undefined","timestamp":"2024-12-06T16:59:51.574Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T16:59:51.721Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.736Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.810Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T16:59:51.813Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.821Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.897Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.970Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.977Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.902Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.908Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.915Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.920Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:51.927Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T16:59:52.304Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:52.308Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:52.310Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:52.312Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:52.314Z"}
+{"level":"error","message":"STATUS 500: undefined undefined","timestamp":"2024-12-06T16:59:52.464Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T16:59:52.468Z"}
+{"level":"error","message":"STATUS 500: undefined undefined","timestamp":"2024-12-06T16:59:52.469Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T16:59:56.993Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T16:59:57.013Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T16:59:57.123Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T16:59:57.132Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:00:02.450Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:00:02.549Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:00:02.607Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:00:02.703Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:00:07.710Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:00:07.798Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:00:07.811Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:00:07.908Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:01:56.156Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:56.182Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:56.190Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:56.193Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:56.196Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:56.198Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:56.201Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:56.202Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:01:56.217Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T17:01:56.254Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:01:56.299Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:01:56.302Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:01:56.312Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:01:56.345Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:01:56.377Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:01:56.391Z"}
+{"level":"error","message":"STATUS 500: undefined undefined","timestamp":"2024-12-06T17:01:56.348Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:01:56.509Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:01:56.598Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:56.746Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:56.749Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:01:57.081Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:57.085Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:57.087Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:57.090Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:57.092Z"}
+{"level":"error","message":"STATUS 500: undefined undefined","timestamp":"2024-12-06T17:01:57.240Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:57.245Z"}
+{"level":"error","message":"STATUS 500: undefined undefined","timestamp":"2024-12-06T17:01:57.247Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:01:57.615Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:57.706Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:57.709Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:57.792Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:57.869Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:57.880Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:01:57.957Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:02:02.268Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:02:02.372Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:02:02.490Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:02:02.577Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:03.609Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:03.708Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:03.710Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:03.792Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:03.893Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:03.896Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:03.976Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:02:08.244Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:02:08.339Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:02:08.463Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:02:08.555Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:09.702Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:09.800Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:09.803Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:09.889Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:09.988Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:09.993Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:10.085Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:02:14.496Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:02:14.566Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:02:14.592Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:02:14.652Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:15.911Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:16.010Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:16.014Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:16.097Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:16.173Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:16.176Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:02:16.252Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-06T17:13:25.379Z"}
+{"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-12-06T17:13:25.949Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T17:15:14.882Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:15:14.898Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:15:14.908Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:15:14.979Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:15:14.991Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:15:15.006Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:15:15.024Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:15.116Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:15.119Z"}
+{"level":"error","message":"STATUS 500: undefined undefined","timestamp":"2024-12-06T17:15:14.982Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:15.201Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:15.279Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:15.313Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:15.403Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:15:16.699Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:16.714Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:16.721Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:16.724Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:16.726Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:16.728Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:16.730Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:16.733Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:15:16.811Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:15:16.990Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:15:21.312Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:15:21.403Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:15:21.535Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:15:21.684Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:15:21.801Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:21.925Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:21.933Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:22.027Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:22.112Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:22.147Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:22.230Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:15:28.090Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:15:28.218Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:28.374Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:28.500Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:28.503Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:28.590Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:28.669Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:28.677Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:28.769Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:15:29.970Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:15:30.059Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:15:34.502Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:15:34.623Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:34.751Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:34.850Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:34.857Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:34.957Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:35.040Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:35.045Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:15:35.130Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:15:36.744Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:15:36.844Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T17:20:47.795Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:20:47.843Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:20:47.845Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:20:47.833Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:20:47.900Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:20:47.937Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:20:47.949Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:20:47.948Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:20:47.953Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:20:48.042Z"}
+{"level":"error","message":"STATUS 500: undefined undefined","timestamp":"2024-12-06T17:20:47.902Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:20:48.123Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:20:48.139Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:20:48.217Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:20:54.287Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:20:54.360Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:20:54.408Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:20:54.425Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:20:54.486Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:20:54.493Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:20:54.536Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:20:54.587Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:20:54.671Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:20:54.679Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:20:54.766Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:21:00.806Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:21:00.890Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:21:00.906Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:21:01.008Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:21:01.035Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:21:01.163Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:21:01.166Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:21:01.252Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:21:01.339Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:21:01.346Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:21:01.431Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:21:07.405Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:21:07.523Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:21:07.516Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:21:07.635Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:21:07.658Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:21:07.757Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:21:07.761Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:21:07.848Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:21:07.942Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:21:07.950Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:21:08.035Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:32:53.449Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:32:53.517Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:32:53.564Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:32:53.652Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:32:54.962Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:32:54.985Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:32:55.002Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:32:55.010Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:32:55.013Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:32:55.015Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:32:55.018Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:32:55.020Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:32:55.023Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:32:55.055Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:32:55.058Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:32:55.096Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:32:55.136Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:32:55.209Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:32:55.220Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:32:55.266Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:32:55.296Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:32:59.868Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:32:59.967Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:32:59.968Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:33:00.071Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:01.486Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:01.587Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:01.592Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:01.674Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:01.752Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:01.754Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:01.829Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:33:06.422Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:33:06.492Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:33:06.507Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:33:06.589Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:08.447Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:08.552Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:08.555Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:08.635Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:08.710Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:08.713Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:08.787Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:33:12.926Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:33:13.013Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:33:13.046Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:33:13.139Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:15.278Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:15.399Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:15.405Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:15.501Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:15.588Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:15.594Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:33:15.678Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:35:58.215Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:35:58.320Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:58.324Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:35:58.447Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:58.465Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:58.473Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:58.475Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:58.477Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:58.479Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:58.481Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:58.483Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:35:58.498Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:35:58.503Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:35:58.558Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:35:58.590Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:35:58.593Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:35:58.633Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:35:58.774Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:58.869Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:58.872Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:58.958Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:59.039Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:59.058Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:59.139Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:59.141Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:59.144Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:59.147Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:59.150Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:35:59.153Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:41:09.220Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T17:41:09.252Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:09.249Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:09.257Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:09.259Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:09.262Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:09.264Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:09.271Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:09.275Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:41:09.288Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:41:09.350Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:41:09.350Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:09.352Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:41:09.373Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:41:09.539Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:41:11.082Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:41:11.195Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:41:11.455Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:11.552Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:11.555Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:11.639Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:11.721Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:11.725Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:11.812Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:11.817Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:11.822Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:11.826Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:11.830Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:41:11.833Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T17:45:28.592Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:45:28.597Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:45:28.685Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:45:28.685Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:28.688Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:45:28.934Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:29.030Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:29.033Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:29.114Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:29.192Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:29.200Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:29.280Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:29.283Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:29.286Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:29.289Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:29.292Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:29.295Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:45:30.142Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:45:30.227Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:45:30.259Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:45:30.481Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:30.484Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:30.492Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:30.494Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:30.497Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:30.500Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:30.501Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:45:30.503Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:45:30.579Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:45:30.801Z"}
+{"level":"error","message":"STATUS 500: undefined undefined","timestamp":"2024-12-06T17:48:42.854Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T17:48:42.947Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:48:42.974Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:48:42.982Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:48:42.994Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:48:43.005Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:48:43.009Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:48:43.012Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:48:43.015Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:48:43.020Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:48:43.039Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:48:43.041Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:48:43.099Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:48:43.176Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:48:43.235Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:48:43.537Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:48:43.551Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:48:43.637Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:48:43.717Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:48:43.721Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:48:43.801Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:48:43.809Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:48:43.814Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:48:43.820Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:48:43.824Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:48:43.828Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:48:44.536Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:48:44.616Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:48:44.627Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:48:44.709Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:11.049Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:50:11.156Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:50:11.161Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:11.174Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:11.182Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:11.184Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:11.186Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:11.192Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:11.194Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:11.196Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:50:11.221Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T17:50:11.229Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:50:11.257Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:50:11.272Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:50:11.309Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:50:11.325Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:11.327Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:50:11.351Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:50:13.019Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:13.113Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:13.119Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:13.205Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:13.284Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:13.287Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:13.363Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:13.367Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:13.371Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:13.375Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:13.378Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:50:13.380Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:51:27.053Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:51:27.060Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T17:51:27.064Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:51:27.141Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:51:27.161Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:51:27.158Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:51:27.161Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:51:27.165Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:51:27.176Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:51:27.184Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:51:27.186Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:51:27.193Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:51:27.195Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:51:27.197Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:51:27.198Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:51:27.271Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:51:27.345Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:51:27.454Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:51:27.478Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:51:27.559Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:51:27.640Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:51:27.646Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:51:27.725Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:51:27.727Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:51:27.730Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:51:27.732Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:51:27.735Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:51:27.738Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:51:28.652Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:51:28.746Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:00.893Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:52:00.997Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.009Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.016Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.019Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.026Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.028Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.030Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.032Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:52:01.057Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T17:52:01.070Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:52:01.106Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:52:01.142Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:52:01.175Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:52:01.183Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.178Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:52:01.323Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.420Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.426Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.527Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.606Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.609Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.686Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.689Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.694Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.699Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.702Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:52:01.705Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:52:02.802Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:52:02.984Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:56.910Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:53:57.000Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:53:57.011Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:57.025Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:57.034Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:57.038Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:57.041Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:57.047Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:57.049Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:57.050Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:53:57.086Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T17:53:57.078Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:53:57.125Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:53:57.135Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:53:57.182Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:57.184Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:53:57.204Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:57.231Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:57.237Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:53:57.548Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:57.640Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:57.642Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:57.724Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:57.727Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:57.730Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:57.735Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:57.738Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:53:57.742Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:53:58.929Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:53:59.112Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:55:23.006Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T17:55:23.032Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:55:23.104Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:55:23.128Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:55:23.114Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:55:23.119Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:55:23.123Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:55:23.125Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:55:23.126Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:55:23.128Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:55:23.129Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:55:23.130Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:55:23.130Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:55:23.191Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:55:23.213Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:55:23.217Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:55:23.293Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:55:23.461Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:55:23.473Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:55:23.556Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:55:23.634Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:55:23.638Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:55:23.715Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:55:23.720Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:55:23.727Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:55:23.740Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:55:23.748Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:55:23.751Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:55:24.183Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:55:24.348Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:56:26.332Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:56:26.340Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:56:26.377Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T17:56:26.390Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:56:26.468Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:56:26.471Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:56:26.479Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:56:26.480Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:56:26.504Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:56:26.524Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:56:26.527Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:56:26.533Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:56:26.535Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:56:26.539Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:56:26.541Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:56:26.543Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:56:26.544Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:56:26.553Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:56:26.619Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:56:26.693Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:56:26.814Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:56:26.824Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:56:26.904Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:56:26.908Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:56:26.913Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:56:26.918Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:56:26.922Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:56:26.930Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:56:27.650Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:56:27.818Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:55.785Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:58:55.901Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T17:58:55.894Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:55.913Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:55.921Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:55.926Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:55.930Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:55.933Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:55.936Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:55.939Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:58:55.987Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:58:55.984Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:55.991Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:58:56.037Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T17:58:56.120Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T17:58:56.114Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:58:56.181Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T17:58:56.312Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T17:58:58.385Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:58.504Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:58.512Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:58.604Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:58.684Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:58.690Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:58.767Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:58.771Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:58.774Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:58.777Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:58.780Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T17:58:58.794Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:00:55.055Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:00:55.193Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:00:55.213Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:00:55.271Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:00:55.217Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:00:55.246Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:00:55.255Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:00:55.260Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:00:55.276Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:00:55.282Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:00:55.284Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:00:55.334Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:00:55.345Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:00:55.347Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:00:55.367Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:00:55.463Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:00:55.468Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:00:55.489Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:00:55.464Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:00:55.882Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:00:55.893Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:00:56.157Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:00:56.238Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:00:56.246Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:00:56.330Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:00:56.334Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:00:56.338Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:00:56.340Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:00:56.342Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:00:56.344Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-06T18:02:03.571Z"}
+{"level":"error","message":"STATUS 400 : POST /users/signIn","timestamp":"2024-12-06T18:02:03.687Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-06T18:02:15.753Z"}
+{"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-12-06T18:02:16.058Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-06T18:02:45.881Z"}
+{"level":"error","message":"STATUS 400 : POST /users/signIn","timestamp":"2024-12-06T18:02:45.883Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-06T18:02:49.267Z"}
+{"level":"error","message":"STATUS 400 : POST /users/signIn","timestamp":"2024-12-06T18:02:49.348Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:05:00.400Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:05:00.414Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:05:00.439Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:05:00.494Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:00.496Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:05:00.575Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:05:00.599Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:01.937Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:05:02.046Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.055Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.060Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.062Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.064Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.068Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:05:02.131Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:05:02.149Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.225Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:05:02.235Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.234Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:05:02.334Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:05:02.420Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:05:02.480Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:05:02.494Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.491Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.495Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.497Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.499Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.501Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.497Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:05:02.576Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.581Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.584Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.587Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.592Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:05:02.672Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.674Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:05:02.678Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:48.026Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:06:48.165Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:06:48.170Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:48.181Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:48.191Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:48.193Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:48.195Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:48.199Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:06:48.260Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:48.262Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:06:48.286Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:06:48.288Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:06:48.315Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:06:48.363Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:06:48.446Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:06:48.458Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:06:48.475Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:06:48.540Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:06:48.623Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:48.631Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:06:48.714Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:48.717Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:48.720Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:48.723Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:48.725Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:06:48.807Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:48.812Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:48.817Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:06:49.744Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:49.836Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:49.841Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:49.850Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:49.853Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:49.855Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:49.857Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:06:49.859Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:08:30.988Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:08:30.990Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:08:31.016Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:08:31.106Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:08:31.104Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:31.108Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:08:31.150Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:08:31.150Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:08:31.236Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:08:31.330Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:08:31.374Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:08:31.413Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:31.424Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:31.399Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:31.414Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:31.422Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:31.432Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:31.437Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:31.442Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:08:31.510Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:31.516Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:31.520Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:31.524Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:31.529Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:08:31.609Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:31.614Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:31.618Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:08:32.422Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:08:32.653Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:32.656Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:32.663Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:32.665Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:32.667Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:08:32.668Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:08:32.747Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:08:32.934Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:24.600Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:09:24.695Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:24.708Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:24.712Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:24.722Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:24.724Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:24.725Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:09:24.754Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:09:24.801Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:09:24.802Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:09:24.840Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:24.842Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:09:24.877Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:09:24.874Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:09:24.884Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:09:24.979Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:09:25.070Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:09:25.149Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:25.165Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:25.170Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:25.172Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:25.175Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:25.178Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:25.180Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:09:26.665Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:09:26.756Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:26.907Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:26.911Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:26.925Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:26.931Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:26.936Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:26.941Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:09:26.943Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:32.724Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:14:32.858Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:14:32.872Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:14:32.920Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:32.923Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:32.931Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:32.933Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:32.945Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:32.947Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:14:33.022Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:14:33.022Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:14:33.038Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:14:33.118Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:14:33.182Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:14:33.204Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:14:33.286Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:33.307Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:33.327Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:33.338Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:33.345Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:33.354Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:33.360Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:14:34.292Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:14:34.451Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:14:34.625Z"}
+{"level":"error","message":"STATUS 500: undefined undefined","timestamp":"2024-12-06T18:14:34.803Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:34.865Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:34.847Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:34.855Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:34.859Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:34.863Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:34.867Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:34.869Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:52.547Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:14:52.659Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:14:52.658Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:14:52.669Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:52.676Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:52.684Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:52.688Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:52.698Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:52.700Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:14:52.746Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:14:52.745Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:14:52.775Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:14:52.799Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:14:52.830Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:14:52.851Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:52.890Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:14:52.896Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:52.892Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:52.899Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:52.912Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:52.914Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:52.916Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:52.918Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:14:53.065Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:53.068Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:53.073Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:53.076Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:53.080Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:53.086Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:53.089Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:14:54.284Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:14:54.700Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:14:54.954Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:33.439Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:15:33.588Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:15:33.600Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:15:33.644Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:33.647Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:33.652Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:33.653Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:33.655Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:33.656Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:15:33.680Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:15:33.729Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:15:33.770Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:15:33.773Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:15:33.802Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:15:33.837Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:15:33.858Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:15:33.910Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:15:33.934Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:33.937Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:33.942Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:33.944Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:33.946Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:33.948Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:33.949Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:34.154Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:15:35.432Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:35.756Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:35.994Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:36.256Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:36.505Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:36.744Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:36.990Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:15:37.235Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:16:58.292Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:16:58.345Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:16:58.680Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:16:58.706Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:16:58.918Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:16:58.941Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:16:59.161Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:16:59.422Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:16:59.666Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:16:59.914Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:16:59.945Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:17:00.056Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:17:00.081Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:17:00.165Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:17:00.202Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:17:00.383Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:17:00.530Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:17:00.533Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:17:00.694Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:17:00.780Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:17:00.828Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:17:00.981Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:17:00.985Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:17:01.425Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:17:01.426Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:17:01.509Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:17:01.827Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:17:01.828Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:17:01.831Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:17:02.154Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:17:02.277Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:17:02.281Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:17:02.490Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:17:02.743Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:17:02.819Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:17:02.822Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:17:03.142Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:17:03.284Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:17:03.359Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:17:03.501Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:18:43.374Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:18:43.374Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:18:43.401Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:18:43.418Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:18:43.461Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:18:43.450Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:43.696Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:43.700Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:43.757Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:18:43.789Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:18:43.975Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:18:43.989Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:43.989Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:44.026Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:18:44.129Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:44.133Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:44.228Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:44.458Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:18:44.562Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:44.564Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:44.698Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:44.936Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:18:44.945Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:44.946Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:18:45.124Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:45.173Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:18:45.358Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:45.359Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:18:45.761Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:18:45.837Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:45.837Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:46.152Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:18:46.268Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:18:46.342Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:46.493Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:46.813Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:47.135Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:47.454Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:18:47.775Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:53.774Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:19:53.821Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:19:53.863Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:19:53.917Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:19:53.915Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:19:54.101Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:19:54.269Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:19:54.349Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:54.350Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:19:54.407Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:19:54.489Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:54.524Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:54.583Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:54.584Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:19:54.678Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:54.945Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:19:54.964Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:54.966Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:55.206Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:19:55.360Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:55.361Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:55.457Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:19:55.664Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:55.701Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:19:55.740Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:55.741Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:55.931Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:55.962Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:19:56.035Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:19:56.150Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:56.177Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:19:56.424Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:19:56.580Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:56.628Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:56.960Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:57.298Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:57.623Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:57.949Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:58.282Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:19:58.607Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:22:11.696Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:22:11.789Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:22:11.788Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:22:11.853Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:22:11.967Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:22:12.007Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:22:12.243Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:22:12.341Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:22:12.350Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:22:12.387Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:22:12.469Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:22:12.648Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:22:12.861Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:22:12.888Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:22:13.011Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:22:13.113Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:22:13.189Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:22:13.313Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:22:13.336Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:22:13.530Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:22:13.543Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:22:13.560Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:22:13.784Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:22:13.785Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:22:13.859Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:22:14.019Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:22:14.171Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:22:14.265Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:22:14.542Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:22:14.615Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:22:14.864Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:22:15.036Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:30:34.592Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:30:34.606Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:30:35.152Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:30:35.171Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:30:36.286Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:30:36.300Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:30:36.510Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:30:36.545Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:30:36.554Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:30:36.632Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:30:36.880Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:30:37.015Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:30:37.031Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:30:37.048Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:30:37.253Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:30:37.282Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:30:37.408Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:30:37.494Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:30:37.520Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:30:37.754Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:30:37.748Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:30:37.813Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:30:38.012Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:30:38.084Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:30:38.107Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:30:38.254Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:30:38.401Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:30:38.723Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:30:39.040Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:30:39.357Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:34:29.195Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:34:29.223Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:34:29.220Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:34:29.276Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:34:29.274Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:29.517Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:34:29.657Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:29.780Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:34:29.803Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:34:29.809Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:34:29.859Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:29.901Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:30.027Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:30.066Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:30.268Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:30.284Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:30.522Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:30.523Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:30.767Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:34:30.829Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:34:30.843Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:30.998Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:34:31.147Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:31.243Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:34:31.304Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:31.776Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:32.100Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:32.428Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:32.750Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:33.076Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:33.394Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:34:33.715Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:36:00.767Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:36:00.807Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:36:00.807Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:36:00.921Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:36:01.041Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:36:01.090Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:36:01.316Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:36:01.333Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:36:01.393Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:36:01.455Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:36:01.558Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:36:01.569Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:36:01.717Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:36:01.814Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:36:01.970Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:36:01.981Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:36:01.948Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:36:02.061Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:36:02.269Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:36:02.362Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:36:02.360Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:36:02.433Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:36:02.525Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:36:02.669Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:36:02.713Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:36:02.767Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:36:02.782Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:36:03.016Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:36:03.035Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:36:03.368Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:36:03.703Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:36:04.031Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:37:12.295Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:37:12.308Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:37:12.326Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:37:12.433Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:37:12.433Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:37:12.529Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:37:12.568Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:37:12.833Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:37:12.862Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:37:12.902Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:37:12.943Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:37:13.079Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:37:13.080Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:37:13.085Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:37:13.314Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:37:13.327Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:37:13.583Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:37:13.587Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:37:13.647Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:37:13.842Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:37:13.913Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:37:13.973Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:37:14.089Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:37:14.231Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:37:14.355Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:37:14.353Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:37:14.612Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:37:14.695Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:37:15.039Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:37:15.363Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:37:15.694Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:41:12.542Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:41:12.689Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:41:13.080Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:41:13.256Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:41:14.675Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:15.023Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:15.268Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:15.524Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:15.771Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:16.018Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:16.271Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:16.514Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:41:16.930Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:17.173Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:17.426Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:17.670Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:17.910Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:18.151Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:41:18.470Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:41:18.908Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:41:19.574Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:41:20.041Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:20.502Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:20.826Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:21.145Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:21.465Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:21.786Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:22.105Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:22.424Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:41:22.817Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:41:23.211Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:41:23.450Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:42:02.328Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:42:02.338Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:42:02.429Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:02.786Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:42:02.870Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:42:02.928Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:03.041Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:03.300Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:03.555Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:03.804Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:04.087Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:04.332Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:42:04.781Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:05.025Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:05.273Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:05.516Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:05.762Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:06.007Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:42:06.331Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:42:06.744Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:42:07.446Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:42:07.929Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:08.405Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:08.727Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:09.050Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:09.373Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:09.695Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:10.017Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:10.341Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:42:10.745Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:42:11.143Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:11.386Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:42:35.269Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:42:35.290Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-06T18:42:35.343Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:35.688Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:42:35.835Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:42:35.834Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:35.935Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:36.186Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:36.429Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:36.670Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:36.908Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:37.144Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:42:37.579Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:37.816Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:38.054Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:38.291Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:38.532Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:38.769Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:42:39.076Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-06T18:42:39.476Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-06T18:42:40.144Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:42:40.606Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:41.060Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:41.372Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:41.683Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:42.003Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:42.321Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:42.635Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:42.945Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-06T18:42:43.337Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-06T18:42:43.732Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-06T18:42:43.964Z"}
+{"level":"info","message":"GET /teamInfo","timestamp":"2024-12-06T19:08:11.408Z"}
+{"level":"info","message":"GET /teamInfos","timestamp":"2024-12-06T19:08:15.317Z"}
+{"level":"error","message":"STATUS 404 : GET /teamInfos","timestamp":"2024-12-06T19:08:15.413Z"}
+{"level":"info","message":"GET /teamInfos","timestamp":"2024-12-06T19:08:53.027Z"}
+{"level":"info","message":"STATUS 200: GET /teamInfos","timestamp":"2024-12-06T19:08:54.714Z"}

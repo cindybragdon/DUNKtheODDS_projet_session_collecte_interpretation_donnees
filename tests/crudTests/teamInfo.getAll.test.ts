@@ -1,13 +1,13 @@
 import mongoose from "mongoose";
 import { connectToMongoDatabase } from "../../src/data/databaseMongo"
-import { MongoTeamScoreController } from "../../src/controllers/teamScore.controller"
+import { MongoTeamInfoController } from "../../src/controllers/teamInfo.controller"
 import { config } from "../../src/config/config"
 import { Response, Request} from "express";
-import { MongoTeamScore } from "../../src/models/mongoTeamScore.model";
+import { MongoTeamInfo } from "../../src/models/mongoTeamInfo.model";
 import { before } from "node:test";
 
 //https://basarat.gitbook.io/typescript/intro-1/jest
-const mongoTeamScoreController = new MongoTeamScoreController();
+const mongoTeamInfoController = new MongoTeamInfoController();
 
 
 
@@ -36,27 +36,27 @@ afterAll(async () => {
 
 
     
-describe('GET ALL teamScore', () => {
+describe('GET ALL teamInfo', () => {
 
-    beforeAll(async () => {
-        MongoTeamScore.collection.drop();
-        const testTeamScore = new MongoTeamScore({teamName: "The - Balls", homeWins: 5, homeLosts: 6, awayWins: 6,awayLosts: 5});
-        await testTeamScore.save();
-        const testTeamScore2 = new MongoTeamScore({teamName: "The inuits", homeWins: 3, homeLosts: 8, awayWins: 8,awayLosts: 3});
-        await testTeamScore2.save();
-        const testTeamScore3 = new MongoTeamScore({teamName: "The big boats", homeWins: 6, homeLosts: 2, awayWins: 2,awayLosts: 6});
-        await testTeamScore3.save();
+    beforeEach(async () => {
+        await MongoTeamInfo.collection.drop();
+        const testTeamInfo = new MongoTeamInfo({teamName: "The - Balls", homeWins: 5, homeLosts: 6, awayWins: 6,awayLosts: 5});
+        await testTeamInfo.save();
+        const testTeamInfo2 = new MongoTeamInfo({teamName: "The inuits", homeWins: 3, homeLosts: 8, awayWins: 8,awayLosts: 3});
+        await testTeamInfo2.save();
+        const testTeamInfo3 = new MongoTeamInfo({teamName: "The big boats", homeWins: 6, homeLosts: 2, awayWins: 2,awayLosts: 6});
+        await testTeamInfo3.save();
     });
 
-    afterAll(async () => {
-        MongoTeamScore.collection.drop();
+    afterEach(async () => {
+        await MongoTeamInfo.collection.drop();
     });
 
-    test('Should return a list of teamScores', async () => {
+    test('Should return a list of teamInfo', async () => {
         const req = mockRequest({},{}) as Request;
         const res = mockResponse() as Response;
 
-        await mongoTeamScoreController.getAllTeamScores(req, res);
+        await mongoTeamInfoController.getAllTeamInfo(req, res);
 
         expect(res.status).toHaveBeenCalledWith(200);
         expect(res.json).toHaveBeenCalledWith(expect.arrayContaining([
@@ -64,18 +64,15 @@ describe('GET ALL teamScore', () => {
         ]));
     });
 
-    before(async () => {
-        MongoTeamScore.collection.drop();
-    })
 
     test('Should return an error 404 if there is no teams scores', async () => {
+        await MongoTeamInfo.collection.drop();
         const req = mockRequest({},{}) as Request;
         const res = mockResponse() as Response;
 
-        await mongoTeamScoreController.getAllTeamScores(req, res);
+        await mongoTeamInfoController.getAllTeamInfo(req, res);
 
         expect(res.status).toHaveBeenCalledWith(404);
-        expect(res.send).toHaveBeenCalledWith(expect.any(String));
     });
 
 });
