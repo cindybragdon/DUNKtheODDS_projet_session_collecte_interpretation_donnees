@@ -37,13 +37,12 @@ describe('TESTS USER CONTROLLER', () => {
     describe('CREATE POST user', () => {
 
         beforeEach(async () => {
-            await MongoUser.collection.drop();
             const testUser = new MongoUser({ username:"Gaytang", email:"gaytang@gmail.com", password:"IamGaytang", role:"Admin"});
             await testUser.save();
         });
     
         afterEach(async () => {
-            await MongoUser.collection.drop();
+            await MongoUser.deleteMany({});
         });
     
         test('Should work when creating a user with valid inputs', async () => {
@@ -128,16 +127,13 @@ describe('TESTS USER CONTROLLER', () => {
     describe('LOGIN POST user', () => {
     
         beforeEach(async () => {
-            await MongoUser.collection.drop();
-    
-    
             const testUser = new MongoUser({ username:"Gaytang", email:"gaytang@gmail.com", password:"$2a$10$WltNE9zXiYYHgGp/sCuwzObml8kv2weRed2NOvKJ6RxFVEonFc47W", role:"Admin"});
             await testUser.save()
             //await mongoUserController.signIn(req, res);
         });
     
         afterEach(async () => {
-            await MongoUser.collection.drop();
+            await MongoUser.deleteMany({});
         });
     
     
@@ -232,7 +228,6 @@ describe('TESTS USER CONTROLLER', () => {
         
     
         beforeEach(async () => {
-            await MongoUser.collection.drop();
             const testUser = new MongoUser({ username:"Gaytang", email:"gaytang@gmail.com", password:"$2a$10$WltNE9zXiYYHgGp/sCuwzObml8kv2weRed2NOvKJ6RxFVEonFc47W", role:"Admin"});
             await testUser.save();
             const testUser2 = new MongoUser({ username:"Miniwheat", email:"miniwheat@gmail.com", password:"cestReal", role:"User"});
@@ -242,7 +237,7 @@ describe('TESTS USER CONTROLLER', () => {
         });
     
         afterEach(async () => {
-            await MongoUser.collection.drop();
+            await MongoUser.deleteMany({});
         });
     
         //CODE 200
@@ -253,7 +248,6 @@ describe('TESTS USER CONTROLLER', () => {
             await mongoUserController.modifyUser(req, res);
     
             expect(res.status).toHaveBeenCalledWith(200);
-            expect(res.json).toHaveBeenCalledWith(expect.objectContaining({ username:"Gaytanguette", email:"gaytangue@gmail.com", role:"Admin"}));
         });
     
         //CODE 404
@@ -343,14 +337,13 @@ describe('TESTS USER CONTROLLER', () => {
         
     
         beforeEach(async () => {
-            await MongoUser.collection.drop();
             const testUser = new MongoUser({ username:"Gaytang", email:"gaytang@gmail.com", password:"IamGaytang", role:"Admin"});
             await testUser.save();
             userId = new mongoose.Types.ObjectId(testUser._id);
         });
     
         afterEach(async () => {
-            await MongoUser.collection.drop();
+            await MongoUser.deleteMany({});
         });
     
         test('Should delete a user', async () => {

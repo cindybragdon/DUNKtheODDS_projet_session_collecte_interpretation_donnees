@@ -39,7 +39,6 @@ afterAll(async () => {
 describe('GET ALL points', () => {
 
     beforeEach(async () => {
-        await MongoPoints.collection.drop();
         const testTeamInfo = new MongoPoints({team1Name: "The - Balls", team2Name: "The inuits", team1Points: 5, team2Points: 6, pointsDifference: 6,numberOfPlayedGames: 5});
         await testTeamInfo.save();
         const testTeamInfo2 = new MongoPoints({team1Name: "The inuits", team2Name:"The big boats", team1Points: 3, team2Points: 8, pointsDifference: 8,numberOfPlayedGames: 3});
@@ -49,7 +48,7 @@ describe('GET ALL points', () => {
     });
 
     afterEach(async () => {
-        await MongoPoints.collection.drop();
+        await MongoPoints.deleteMany({});
     });
 
     test('Should return a list of points', async () => {

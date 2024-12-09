@@ -33,5 +33,7 @@ npm install jsonwebtoken bcryptjs
 npm i --save-dev @types/jsonwebtoken @types/bcryptjs
 
 
-//Jest
+//tests
 npm install --save-dev jest ts-jest @types/jest
+npm install supertest --save-dev
+npm i --save-dev @types/supertest

@@ -58,7 +58,7 @@ app.get('/', (req: Request, res: Response) => {
   res.send('Hello TypeScript with Express!');
 });
 
-
+/*
 app.listen(port, async () => {
 
   console.log('MongoDB URL:', process.env.DB_PROD_URI_FINAL);
@@ -67,18 +67,29 @@ app.listen(port, async () => {
   console.log(`Server is running on port http://localhost:${port}`);
   //fetchAllData(config.databaseFetchUrl);
 });
+*/
+console.log(config.nodeEnv);
 
-/*
 
 if(config.nodeEnv === "prod") {
   // Démarrer le serveur prod
    app.listen(port, async () => {
-    await connectToMongoDatabase(config.DB_PROD_URI)
-    populateMongoDatabase()
+    await connectToMongoDatabase(config.DB_PROD_URI_FINAL)
+    //populateMongoDatabase()
     console.log("Serveur prod started");
     console.log(`Server is running on port http://localhost:${port}`);
   });
-} else if (config.nodeEnv === "test"){
+} else {
+
+/*
+  app.listen(port, async () => {
+    await connectToMongoDatabase(config.DB_TEST_URI_FINAL)
+    //populateMongoDatabase()
+    console.log("Serveur prod started");
+    console.log(`Server is running on port http://localhost:${port}`);
+  });
+/*
+  /*
   https.createServer(options, app).listen(port, async () => {
     fetchProdData(config.pathDatabaseProducts);
     await connectToMongoDatabase(config.DB_TEST_URI)
@@ -86,13 +97,7 @@ if(config.nodeEnv === "prod") {
     console.log("Serveur test started");
     console.log(`Server is running on port https://localhost:${port}`);
   });
-} else if (config.nodeEnv === "dev") {
-  https.createServer(options, app).listen(port, async () => {
-    await connectToMongoDatabase(config.DB_PROD_URI)
-    populateMongoDatabase()
-    console.log("Serveur dev started");
-    console.log(`Server is running on port https://localhost:${port}`);
-  });
+  */
 }
-*/
+
 export default app;

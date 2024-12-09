@@ -99,6 +99,7 @@ export function verifyAdminUserRight(req: Request, res: Response, next: NextFunc
         return;
       }
   
+      //A User cannot become an admin by himself
       if (req.body.role === "Admin" && decoded.user.role !== "Admin") {
         console.log("STATUS 403 : FORBIDDEN");
         logger.error(`STATUS 403 : ${req.method} ${req.url}`);

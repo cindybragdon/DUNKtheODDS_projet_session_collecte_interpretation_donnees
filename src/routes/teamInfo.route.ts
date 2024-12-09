@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import express from 'express';
-import { MongoTeamInfoController } from '../controllers/teamiNFO.controller';
+import { MongoTeamInfoController } from '../controllers/teamInfo.controller';
 
 
 const router = Router();
