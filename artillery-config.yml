@@ -1,0 +1,71 @@
+config:
+  target: "http://localhost:3000"
+  phases:
+    - name: "ARTILLERIES TESTS ARE COMING"  
+      duration: 60   
+      arrivalRate: 5  
+  variables:
+    token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyVG9Mb2dpbiI6eyJfaWQiOiI2NzNhMmYwOWQ2ZDQwYWZkMzAxOWFmZTUiLCJ1c2VybmFtZSI6InBhdWwiLCJwYXNzd29yZCI6IiQyYSQxMCRFTkZYeGRxQmVId0VhSC5uVmllaVMuYkFydEdPTlU3akdYTzZ2Yll4U0hucGszaVhnTG83eSIsImVtYWlsIjoiY2hvY29jb2NAZ21haWwuY29tIiwicm9sZSI6Ikdlc3Rpb25uYWlyZSIsIl9fdiI6MH0sImlhdCI6MTczMTg2NjM4MiwiZXhwIjoxNzMxODY5OTgyfQ.cJYRaRh1bOl2ohCjz_MOMd3W7oE4G1lpTiBe8U9ZCKw"
+  defaults:
+    headers:
+      Authorization: "Bearer {{ token }}"
+      Content-Type: "application/json"
+
+scenarios:
+  - name: Create a New User
+    flow:
+      - post:
+          url: "/users/signIn"
+          json:
+            username: "artillery"
+            password: "artilleryPassword"
+            email: "artilleryTest@gmail.com"
+            role: "User"
+          expect:
+            statusCode: 201
+
+  - name: Login user
+    flow:
+      - get:
+          url: "/users/login"
+          json:
+            email: "artilleryTest@gmail.com"
+            password: "artilleryPassword"
+          expect:
+            statusCode: 200
+
+
+
+  - name: Update a user
+    flow:
+      - put:
+          url: "/users/6736b6716e8eb4c9228fe3b1"
+          json:
+            username: "test"
+            password: "gaytangDugrandPré"
+            email: "artilleryTestMod@gmail.com"
+            role: "User"
+          expect:
+            statusCode: 200
+
+  - name: Delete a user
+    flow:
+      - delete:
+          url: "/users/6736b6716e8eb4c9228fe3b1"
+          expect:
+            statusCode: 204
+
+  - name: get all teamInfos
+    flow:
+      - get:
+          url: "/teamInfos"
+          expect:
+            statusCode: 200
+
+
+  - name: get all points
+    flow:
+      - get:
+          url: "/points"
+          expect:
+            statusCode: 200
