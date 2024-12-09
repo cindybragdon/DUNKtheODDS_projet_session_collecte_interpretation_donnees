@@ -1,0 +1,249 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.Login user": 59,
+      "vusers.created": 300,
+      "plugins.metrics-by-endpoint./users/login.errors.ERR_GOT_REQUEST_ERROR": 59,
+      "errors.ERR_GOT_REQUEST_ERROR": 59,
+      "vusers.failed": 300,
+      "vusers.created_by_name.Update a user": 48,
+      "http.requests": 241,
+      "plugins.metrics-by-endpoint./users/6736b6716e8eb4c9228fe3b1.errors.ECONNREFUSED": 90,
+      "errors.ECONNREFUSED": 241,
+      "vusers.created_by_name.Delete a user": 42,
+      "vusers.created_by_name.get all points": 45,
+      "plugins.metrics-by-endpoint./points.errors.ECONNREFUSED": 45,
+      "vusers.created_by_name.Create a New User": 56,
+      "plugins.metrics-by-endpoint./users/signIn.errors.ECONNREFUSED": 56,
+      "vusers.created_by_name.get all teamInfos": 50,
+      "plugins.metrics-by-endpoint./teamInfos.errors.ECONNREFUSED": 50
+    },
+    "rates": {
+      "http.request_rate": 5
+    },
+    "firstCounterAt": 1733710658151,
+    "lastCounterAt": 1733710717391,
+    "firstMetricAt": 1733710658151,
+    "lastMetricAt": 1733710717391,
+    "period": 1733710710000,
+    "summaries": {},
+    "histograms": {}
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.Login user": 1,
+        "vusers.created": 10,
+        "plugins.metrics-by-endpoint./users/login.errors.ERR_GOT_REQUEST_ERROR": 1,
+        "errors.ERR_GOT_REQUEST_ERROR": 1,
+        "vusers.failed": 10,
+        "vusers.created_by_name.Update a user": 2,
+        "http.requests": 9,
+        "plugins.metrics-by-endpoint./users/6736b6716e8eb4c9228fe3b1.errors.ECONNREFUSED": 3,
+        "errors.ECONNREFUSED": 9,
+        "vusers.created_by_name.get all points": 2,
+        "plugins.metrics-by-endpoint./points.errors.ECONNREFUSED": 2,
+        "vusers.created_by_name.Delete a user": 1,
+        "vusers.created_by_name.Create a New User": 4,
+        "plugins.metrics-by-endpoint./users/signIn.errors.ECONNREFUSED": 4
+      },
+      "rates": {
+        "http.request_rate": 9
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1733710658151,
+      "lastCounterAt": 1733710659398,
+      "firstMetricAt": 1733710658151,
+      "lastMetricAt": 1733710659398,
+      "period": "1733710650000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Delete a user": 10,
+        "vusers.created": 50,
+        "http.requests": 37,
+        "plugins.metrics-by-endpoint./users/6736b6716e8eb4c9228fe3b1.errors.ECONNREFUSED": 18,
+        "errors.ECONNREFUSED": 37,
+        "vusers.failed": 50,
+        "vusers.created_by_name.Update a user": 8,
+        "vusers.created_by_name.Login user": 13,
+        "plugins.metrics-by-endpoint./users/login.errors.ERR_GOT_REQUEST_ERROR": 13,
+        "errors.ERR_GOT_REQUEST_ERROR": 13,
+        "vusers.created_by_name.get all points": 5,
+        "plugins.metrics-by-endpoint./points.errors.ECONNREFUSED": 5,
+        "vusers.created_by_name.Create a New User": 6,
+        "plugins.metrics-by-endpoint./users/signIn.errors.ECONNREFUSED": 6,
+        "vusers.created_by_name.get all teamInfos": 8,
+        "plugins.metrics-by-endpoint./teamInfos.errors.ECONNREFUSED": 8
+      },
+      "rates": {
+        "http.request_rate": 5
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1733710660156,
+      "lastCounterAt": 1733710669392,
+      "firstMetricAt": 1733710660156,
+      "lastMetricAt": 1733710669392,
+      "period": "1733710660000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.get all teamInfos": 7,
+        "vusers.created": 50,
+        "http.requests": 40,
+        "plugins.metrics-by-endpoint./teamInfos.errors.ECONNREFUSED": 7,
+        "errors.ECONNREFUSED": 40,
+        "vusers.failed": 50,
+        "vusers.created_by_name.get all points": 8,
+        "plugins.metrics-by-endpoint./points.errors.ECONNREFUSED": 8,
+        "vusers.created_by_name.Update a user": 10,
+        "plugins.metrics-by-endpoint./users/6736b6716e8eb4c9228fe3b1.errors.ECONNREFUSED": 14,
+        "vusers.created_by_name.Login user": 10,
+        "plugins.metrics-by-endpoint./users/login.errors.ERR_GOT_REQUEST_ERROR": 10,
+        "errors.ERR_GOT_REQUEST_ERROR": 10,
+        "vusers.created_by_name.Create a New User": 11,
+        "plugins.metrics-by-endpoint./users/signIn.errors.ECONNREFUSED": 11,
+        "vusers.created_by_name.Delete a user": 4
+      },
+      "rates": {
+        "http.request_rate": 5
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1733710670148,
+      "lastCounterAt": 1733710679391,
+      "firstMetricAt": 1733710670148,
+      "lastMetricAt": 1733710679391,
+      "period": "1733710670000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Create a New User": 9,
+        "vusers.created": 50,
+        "http.requests": 40,
+        "plugins.metrics-by-endpoint./users/signIn.errors.ECONNREFUSED": 9,
+        "errors.ECONNREFUSED": 40,
+        "vusers.failed": 50,
+        "vusers.created_by_name.get all teamInfos": 6,
+        "plugins.metrics-by-endpoint./teamInfos.errors.ECONNREFUSED": 6,
+        "vusers.created_by_name.Delete a user": 7,
+        "plugins.metrics-by-endpoint./users/6736b6716e8eb4c9228fe3b1.errors.ECONNREFUSED": 16,
+        "vusers.created_by_name.Update a user": 9,
+        "vusers.created_by_name.Login user": 10,
+        "plugins.metrics-by-endpoint./users/login.errors.ERR_GOT_REQUEST_ERROR": 10,
+        "errors.ERR_GOT_REQUEST_ERROR": 10,
+        "vusers.created_by_name.get all points": 9,
+        "plugins.metrics-by-endpoint./points.errors.ECONNREFUSED": 9
+      },
+      "rates": {
+        "http.request_rate": 5
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1733710680148,
+      "lastCounterAt": 1733710689389,
+      "firstMetricAt": 1733710680148,
+      "lastMetricAt": 1733710689389,
+      "period": "1733710680000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Login user": 8,
+        "vusers.created": 50,
+        "plugins.metrics-by-endpoint./users/login.errors.ERR_GOT_REQUEST_ERROR": 8,
+        "errors.ERR_GOT_REQUEST_ERROR": 8,
+        "vusers.failed": 50,
+        "vusers.created_by_name.get all points": 6,
+        "http.requests": 42,
+        "plugins.metrics-by-endpoint./points.errors.ECONNREFUSED": 6,
+        "errors.ECONNREFUSED": 42,
+        "vusers.created_by_name.Update a user": 10,
+        "plugins.metrics-by-endpoint./users/6736b6716e8eb4c9228fe3b1.errors.ECONNREFUSED": 15,
+        "vusers.created_by_name.Create a New User": 12,
+        "plugins.metrics-by-endpoint./users/signIn.errors.ECONNREFUSED": 12,
+        "vusers.created_by_name.get all teamInfos": 9,
+        "plugins.metrics-by-endpoint./teamInfos.errors.ECONNREFUSED": 9,
+        "vusers.created_by_name.Delete a user": 5
+      },
+      "rates": {
+        "http.request_rate": 5
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1733710690148,
+      "lastCounterAt": 1733710699391,
+      "firstMetricAt": 1733710690148,
+      "lastMetricAt": 1733710699391,
+      "period": "1733710690000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Delete a user": 7,
+        "vusers.created": 50,
+        "http.requests": 41,
+        "plugins.metrics-by-endpoint./users/6736b6716e8eb4c9228fe3b1.errors.ECONNREFUSED": 12,
+        "errors.ECONNREFUSED": 41,
+        "vusers.failed": 50,
+        "vusers.created_by_name.Login user": 9,
+        "plugins.metrics-by-endpoint./users/login.errors.ERR_GOT_REQUEST_ERROR": 9,
+        "errors.ERR_GOT_REQUEST_ERROR": 9,
+        "vusers.created_by_name.get all teamInfos": 12,
+        "plugins.metrics-by-endpoint./teamInfos.errors.ECONNREFUSED": 12,
+        "vusers.created_by_name.get all points": 7,
+        "plugins.metrics-by-endpoint./points.errors.ECONNREFUSED": 7,
+        "vusers.created_by_name.Update a user": 5,
+        "vusers.created_by_name.Create a New User": 10,
+        "plugins.metrics-by-endpoint./users/signIn.errors.ECONNREFUSED": 10
+      },
+      "rates": {
+        "http.request_rate": 5
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1733710700154,
+      "lastCounterAt": 1733710709390,
+      "firstMetricAt": 1733710700154,
+      "lastMetricAt": 1733710709390,
+      "period": "1733710700000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.get all points": 8,
+        "vusers.created": 40,
+        "http.requests": 32,
+        "plugins.metrics-by-endpoint./points.errors.ECONNREFUSED": 8,
+        "errors.ECONNREFUSED": 32,
+        "vusers.failed": 40,
+        "vusers.created_by_name.Delete a user": 8,
+        "plugins.metrics-by-endpoint./users/6736b6716e8eb4c9228fe3b1.errors.ECONNREFUSED": 12,
+        "vusers.created_by_name.Update a user": 4,
+        "vusers.created_by_name.Create a New User": 4,
+        "plugins.metrics-by-endpoint./users/signIn.errors.ECONNREFUSED": 4,
+        "vusers.created_by_name.get all teamInfos": 8,
+        "plugins.metrics-by-endpoint./teamInfos.errors.ECONNREFUSED": 8,
+        "vusers.created_by_name.Login user": 8,
+        "plugins.metrics-by-endpoint./users/login.errors.ERR_GOT_REQUEST_ERROR": 8,
+        "errors.ERR_GOT_REQUEST_ERROR": 8
+      },
+      "rates": {
+        "http.request_rate": 5
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1733710710148,
+      "lastCounterAt": 1733710717391,
+      "firstMetricAt": 1733710710148,
+      "lastMetricAt": 1733710717391,
+      "period": "1733710710000",
+      "summaries": {},
+      "histograms": {}
+    }
+  ]
+}
