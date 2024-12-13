@@ -59,6 +59,32 @@ router.use(express.json());
  */
 router.post('/users/login', mongoUserController.login);
 
+/**
+ * @swagger
+ * /users:
+ *   get:
+ *     summary: Get all users
+ *     description: Retrieve a list of all users. Requires authentication and authorization.
+ *     tags:
+ *       - Users
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: A list of users.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 $ref: '#/components/schemas/User'
+ *       404:
+ *         description: No users found.
+ *       500:
+ *         description: Internal server error.
+ */
+router.get('/users', authenticateToken, authorizeUser, mongoUserController.getAllUsers);
+
 
 /**
  * @swagger
@@ -92,6 +118,7 @@ router.post('/users/login', mongoUserController.login);
  *         description: Internal server error.
  */
 router.post('/users/signIn',verifyAdminUserRight, mongoUserController.signIn);
+
 
 /**
  * @swagger
@@ -197,6 +224,11 @@ router.delete('/users/:id', authenticateToken, authorizeUser, mongoUserControlle
  *         email: "testuser@example.com"
  *         password: "securepassword"
  *         role: "User"
+ *   securitySchemes:
+ *     bearerAuth:
+ *       type: http
+ *       scheme: bearer
+ *       bearerFormat: JWT
  */
 
 export default router;

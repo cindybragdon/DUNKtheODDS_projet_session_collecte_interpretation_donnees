@@ -376,4 +376,41 @@ describe('TESTS USER CONTROLLER', () => {
             expect(res.status).toHaveBeenCalledWith(400);
         });
     });
+
+
+    describe('GET ALL USERINFO', () => {
+    
+        beforeEach(async () => {
+            await MongoUser.collection.drop();
+            const testUser = new MongoUser({ username:"Gaytang", email:"gaytang@gmail.com", password:"IamGaytang", role:"Admin"});
+            await testUser.save();
+            const testUser2 = new MongoUser({ username:"TEST", email:"test@gmail.com", password:"IamTest", role:"User"});
+            await testUser2.save();
+        });
+    
+        afterEach(async () => {
+            await MongoUser.deleteMany({});
+        });
+    
+        test('Should return a list of users', async () => {
+            const req = mockRequest({},{}) as Request;
+            const res = mockResponse() as Response;
+    
+            await mongoUserController.getAllUsers(req, res);
+    
+            expect(res.status).toHaveBeenCalledWith(200);
+        });
+    
+    
+        test('Should return an error 404 if there is no users', async () => {
+            await MongoUser.collection.drop();
+            const req = mockRequest({},{}) as Request;
+            const res = mockResponse() as Response;
+    
+            await mongoUserController.getAllUsers(req, res);
+    
+            expect(res.status).toHaveBeenCalledWith(404);
+        });
+    
+    });
 })

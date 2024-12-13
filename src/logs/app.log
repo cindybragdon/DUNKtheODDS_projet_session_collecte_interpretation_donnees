@@ -4568,3 +4568,245 @@
 {"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-09T01:31:45.660Z"}
 {"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-09T01:31:47.458Z"}
 {"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-09T01:31:48.136Z"}
+{"level":"info","message":"GET /points","timestamp":"2024-12-13T18:20:34.078Z"}
+{"level":"info","message":"STATUS 200: GET /points","timestamp":"2024-12-13T18:20:34.473Z"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-12-13T18:20:53.197Z"}
+{"level":"error","message":"STATUS 401 : POST /users/login","timestamp":"2024-12-13T18:20:53.416Z"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-12-13T18:20:59.135Z"}
+{"level":"error","message":"STATUS 401 : POST /users/login","timestamp":"2024-12-13T18:20:59.225Z"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-12-13T18:21:00.524Z"}
+{"level":"error","message":"STATUS 401 : POST /users/login","timestamp":"2024-12-13T18:21:00.612Z"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-12-13T18:21:08.660Z"}
+{"level":"error","message":"STATUS 401 : POST /users/login","timestamp":"2024-12-13T18:21:08.746Z"}
+{"level":"info","message":"GET /users","timestamp":"2024-12-13T18:21:25.456Z"}
+{"level":"error","message":"STATUS 401 : GET /users","timestamp":"2024-12-13T18:21:25.459Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:22:01.857Z"}
+{"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-12-13T18:22:02.237Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:26:43.680Z"}
+{"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-12-13T18:26:44.165Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:26:44.263Z"}
+{"level":"error","message":"STATUS 403 : POST /users/signIn","timestamp":"2024-12-13T18:26:44.312Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:26:44.385Z"}
+{"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-12-13T18:26:44.707Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:26:44.770Z"}
+{"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-12-13T18:26:45.068Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:26:45.141Z"}
+{"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-12-13T18:26:45.452Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:26:45.528Z"}
+{"level":"error","message":"STATUS 401 : POST /users/signIn - Missing Token","timestamp":"2024-12-13T18:26:45.534Z"}
+{"level":"info","message":"PUT /users/675c7c65833f756ceef01ac8","timestamp":"2024-12-13T18:26:45.932Z"}
+{"level":"info","message":"STATUS 200: PUT /users/675c7c65833f756ceef01ac8","timestamp":"2024-12-13T18:26:46.366Z"}
+{"level":"info","message":"PUT /users/675c7c66833f756ceef01ad4","timestamp":"2024-12-13T18:26:46.864Z"}
+{"level":"info","message":"STATUS 200: PUT /users/675c7c66833f756ceef01ad4","timestamp":"2024-12-13T18:26:47.278Z"}
+{"level":"info","message":"PUT /users/675c7c67833f756ceef01ade","timestamp":"2024-12-13T18:26:47.808Z"}
+{"level":"error","message":"STATUS 403 : PUT /users/675c7c67833f756ceef01ade","timestamp":"2024-12-13T18:26:47.822Z"}
+{"level":"info","message":"PUT /users/675c7c68833f756ceef01ae2","timestamp":"2024-12-13T18:26:48.314Z"}
+{"level":"error","message":"STATUS 403 : PUT /users/675c7c68833f756ceef01ae2","timestamp":"2024-12-13T18:26:48.322Z"}
+{"level":"info","message":"PUT /users/675c7c68833f756ceef01aea","timestamp":"2024-12-13T18:26:48.828Z"}
+{"level":"info","message":"STATUS 200: PUT /users/675c7c68833f756ceef01aea","timestamp":"2024-12-13T18:26:49.221Z"}
+{"level":"info","message":"PUT /users/675c7c69833f756ceef01af4","timestamp":"2024-12-13T18:26:49.742Z"}
+{"level":"error","message":"STATUS 401 : PUT /users/675c7c69833f756ceef01af4","timestamp":"2024-12-13T18:26:49.752Z"}
+{"level":"info","message":"PUT /users/675c7c69833f756ceef01af8","timestamp":"2024-12-13T18:26:50.236Z"}
+{"level":"error","message":"STATUS 401 : PUT /users/675c7c69833f756ceef01af8","timestamp":"2024-12-13T18:26:50.242Z"}
+{"level":"info","message":"DELETE /users/675c7c6a833f756ceef01afe","timestamp":"2024-12-13T18:26:50.783Z"}
+{"level":"info","message":"STATUS 204: DELETE /users/675c7c6a833f756ceef01afe","timestamp":"2024-12-13T18:26:50.978Z"}
+{"level":"info","message":"DELETE /users/675c7c6b833f756ceef01b08","timestamp":"2024-12-13T18:26:51.514Z"}
+{"level":"info","message":"STATUS 204: DELETE /users/675c7c6b833f756ceef01b08","timestamp":"2024-12-13T18:26:51.704Z"}
+{"level":"info","message":"DELETE /users/675c7c6b833f756ceef01b0e","timestamp":"2024-12-13T18:26:52.239Z"}
+{"level":"error","message":"STATUS 403 : DELETE /users/675c7c6b833f756ceef01b0e","timestamp":"2024-12-13T18:26:52.252Z"}
+{"level":"info","message":"DELETE /users/675c7c6c833f756ceef01b16","timestamp":"2024-12-13T18:26:52.784Z"}
+{"level":"info","message":"STATUS 204: DELETE /users/675c7c6c833f756ceef01b16","timestamp":"2024-12-13T18:26:52.968Z"}
+{"level":"info","message":"DELETE /users/675c7c6d833f756ceef01b1e","timestamp":"2024-12-13T18:26:53.721Z"}
+{"level":"error","message":"STATUS 401 : DELETE /users/675c7c6d833f756ceef01b1e","timestamp":"2024-12-13T18:26:53.728Z"}
+{"level":"info","message":"DELETE /users/675c7c6d833f756ceef01b22","timestamp":"2024-12-13T18:26:54.314Z"}
+{"level":"error","message":"STATUS 401 : DELETE /users/675c7c6d833f756ceef01b22","timestamp":"2024-12-13T18:26:54.321Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-13T18:26:57.805Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:26:58.095Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:26:58.417Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:26:58.622Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:26:58.806Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:26:59.003Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:26:59.199Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:26:59.388Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-13T18:26:59.763Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:26:59.947Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:27:00.146Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:27:00.338Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:27:00.524Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:27:00.717Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-13T18:27:00.998Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-13T18:27:01.382Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-13T18:27:02.048Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-13T18:27:02.536Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:27:03.013Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:27:03.293Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:27:03.610Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:27:03.892Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:27:04.175Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:27:04.465Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:27:04.747Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-13T18:27:05.111Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-13T18:27:05.489Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:27:05.684Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-13T18:27:06.160Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-13T18:27:06.702Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-13T18:27:09.529Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-13T18:27:10.078Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-13T18:27:12.401Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-13T18:27:13.039Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:32:05.895Z"}
+{"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-12-13T18:32:06.294Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:32:06.384Z"}
+{"level":"error","message":"STATUS 403 : POST /users/signIn","timestamp":"2024-12-13T18:32:06.395Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:32:06.470Z"}
+{"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-12-13T18:32:06.759Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:32:06.830Z"}
+{"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-12-13T18:32:07.145Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:32:07.234Z"}
+{"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-12-13T18:32:07.550Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:32:07.633Z"}
+{"level":"error","message":"STATUS 401 : POST /users/signIn - Missing Token","timestamp":"2024-12-13T18:32:07.641Z"}
+{"level":"info","message":"PUT /users/675c7da7712ef47ff05687ab","timestamp":"2024-12-13T18:32:08.033Z"}
+{"level":"info","message":"STATUS 200: PUT /users/675c7da7712ef47ff05687ab","timestamp":"2024-12-13T18:32:08.467Z"}
+{"level":"info","message":"PUT /users/675c7da8712ef47ff05687b7","timestamp":"2024-12-13T18:32:08.968Z"}
+{"level":"info","message":"STATUS 200: PUT /users/675c7da8712ef47ff05687b7","timestamp":"2024-12-13T18:32:09.349Z"}
+{"level":"info","message":"PUT /users/675c7da9712ef47ff05687c1","timestamp":"2024-12-13T18:32:09.827Z"}
+{"level":"error","message":"STATUS 403 : PUT /users/675c7da9712ef47ff05687c1","timestamp":"2024-12-13T18:32:09.836Z"}
+{"level":"info","message":"PUT /users/675c7daa712ef47ff05687c5","timestamp":"2024-12-13T18:32:10.303Z"}
+{"level":"error","message":"STATUS 403 : PUT /users/675c7daa712ef47ff05687c5","timestamp":"2024-12-13T18:32:10.312Z"}
+{"level":"info","message":"PUT /users/675c7daa712ef47ff05687cd","timestamp":"2024-12-13T18:32:10.799Z"}
+{"level":"info","message":"STATUS 200: PUT /users/675c7daa712ef47ff05687cd","timestamp":"2024-12-13T18:32:11.193Z"}
+{"level":"info","message":"PUT /users/675c7dab712ef47ff05687d7","timestamp":"2024-12-13T18:32:11.659Z"}
+{"level":"error","message":"STATUS 401 : PUT /users/675c7dab712ef47ff05687d7","timestamp":"2024-12-13T18:32:11.675Z"}
+{"level":"info","message":"PUT /users/675c7dab712ef47ff05687db","timestamp":"2024-12-13T18:32:12.170Z"}
+{"level":"error","message":"STATUS 401 : PUT /users/675c7dab712ef47ff05687db","timestamp":"2024-12-13T18:32:12.176Z"}
+{"level":"info","message":"DELETE /users/675c7dac712ef47ff05687e1","timestamp":"2024-12-13T18:32:12.688Z"}
+{"level":"info","message":"STATUS 204: DELETE /users/675c7dac712ef47ff05687e1","timestamp":"2024-12-13T18:32:12.878Z"}
+{"level":"info","message":"DELETE /users/675c7dad712ef47ff05687eb","timestamp":"2024-12-13T18:32:13.383Z"}
+{"level":"info","message":"STATUS 204: DELETE /users/675c7dad712ef47ff05687eb","timestamp":"2024-12-13T18:32:13.577Z"}
+{"level":"info","message":"DELETE /users/675c7dad712ef47ff05687f1","timestamp":"2024-12-13T18:32:14.070Z"}
+{"level":"error","message":"STATUS 403 : DELETE /users/675c7dad712ef47ff05687f1","timestamp":"2024-12-13T18:32:14.078Z"}
+{"level":"info","message":"DELETE /users/675c7dae712ef47ff05687f9","timestamp":"2024-12-13T18:32:14.583Z"}
+{"level":"info","message":"STATUS 204: DELETE /users/675c7dae712ef47ff05687f9","timestamp":"2024-12-13T18:32:14.764Z"}
+{"level":"info","message":"DELETE /users/675c7daf712ef47ff0568801","timestamp":"2024-12-13T18:32:15.279Z"}
+{"level":"error","message":"STATUS 401 : DELETE /users/675c7daf712ef47ff0568801","timestamp":"2024-12-13T18:32:15.288Z"}
+{"level":"info","message":"DELETE /users/675c7daf712ef47ff0568805","timestamp":"2024-12-13T18:32:15.969Z"}
+{"level":"error","message":"STATUS 401 : DELETE /users/675c7daf712ef47ff0568805","timestamp":"2024-12-13T18:32:15.977Z"}
+{"level":"info","message":"GET /users","timestamp":"2024-12-13T18:32:16.529Z"}
+{"level":"info","message":"STATUS 200: GET /users","timestamp":"2024-12-13T18:32:16.639Z"}
+{"level":"info","message":"GET /users","timestamp":"2024-12-13T18:32:17.176Z"}
+{"level":"error","message":"STATUS 403 : GET /users","timestamp":"2024-12-13T18:32:17.184Z"}
+{"level":"info","message":"GET /users","timestamp":"2024-12-13T18:32:17.788Z"}
+{"level":"error","message":"STATUS 401 : GET /users","timestamp":"2024-12-13T18:32:17.793Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-13T18:32:20.542Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:20.840Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:21.037Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:21.233Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:21.420Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:21.600Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:21.785Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:21.987Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-13T18:32:22.391Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:22.589Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:22.775Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:22.963Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:23.148Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:23.353Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-13T18:32:23.630Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-13T18:32:24.015Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-13T18:32:24.720Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-13T18:32:25.181Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:25.639Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:25.907Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:26.192Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:26.465Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:26.756Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:27.051Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:27.330Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-13T18:32:27.747Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-13T18:32:28.097Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:32:28.288Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-13T18:32:28.765Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-13T18:32:29.317Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-13T18:32:32.094Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-13T18:32:32.647Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-13T18:32:34.933Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-13T18:32:35.738Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:38:22.113Z"}
+{"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-12-13T18:38:22.501Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:38:22.576Z"}
+{"level":"error","message":"STATUS 403 : POST /users/signIn","timestamp":"2024-12-13T18:38:22.586Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:38:22.652Z"}
+{"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-12-13T18:38:22.943Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:38:22.999Z"}
+{"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-12-13T18:38:23.324Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:38:23.418Z"}
+{"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-12-13T18:38:23.725Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-13T18:38:23.815Z"}
+{"level":"error","message":"STATUS 401 : POST /users/signIn - Missing Token","timestamp":"2024-12-13T18:38:23.821Z"}
+{"level":"info","message":"PUT /users/675c7f1ff0c43a5568a88463","timestamp":"2024-12-13T18:38:24.229Z"}
+{"level":"info","message":"STATUS 200: PUT /users/675c7f1ff0c43a5568a88463","timestamp":"2024-12-13T18:38:24.628Z"}
+{"level":"info","message":"PUT /users/675c7f20f0c43a5568a8846f","timestamp":"2024-12-13T18:38:25.082Z"}
+{"level":"info","message":"STATUS 200: PUT /users/675c7f20f0c43a5568a8846f","timestamp":"2024-12-13T18:38:25.451Z"}
+{"level":"info","message":"PUT /users/675c7f21f0c43a5568a88479","timestamp":"2024-12-13T18:38:25.924Z"}
+{"level":"error","message":"STATUS 403 : PUT /users/675c7f21f0c43a5568a88479","timestamp":"2024-12-13T18:38:25.934Z"}
+{"level":"info","message":"PUT /users/675c7f22f0c43a5568a8847d","timestamp":"2024-12-13T18:38:26.473Z"}
+{"level":"error","message":"STATUS 403 : PUT /users/675c7f22f0c43a5568a8847d","timestamp":"2024-12-13T18:38:26.482Z"}
+{"level":"info","message":"PUT /users/675c7f22f0c43a5568a88485","timestamp":"2024-12-13T18:38:26.996Z"}
+{"level":"info","message":"STATUS 200: PUT /users/675c7f22f0c43a5568a88485","timestamp":"2024-12-13T18:38:27.365Z"}
+{"level":"info","message":"PUT /users/675c7f23f0c43a5568a8848f","timestamp":"2024-12-13T18:38:27.874Z"}
+{"level":"error","message":"STATUS 401 : PUT /users/675c7f23f0c43a5568a8848f","timestamp":"2024-12-13T18:38:27.885Z"}
+{"level":"info","message":"PUT /users/675c7f24f0c43a5568a88493","timestamp":"2024-12-13T18:38:28.434Z"}
+{"level":"error","message":"STATUS 401 : PUT /users/675c7f24f0c43a5568a88493","timestamp":"2024-12-13T18:38:28.442Z"}
+{"level":"info","message":"DELETE /users/675c7f24f0c43a5568a88499","timestamp":"2024-12-13T18:38:28.937Z"}
+{"level":"info","message":"STATUS 204: DELETE /users/675c7f24f0c43a5568a88499","timestamp":"2024-12-13T18:38:29.119Z"}
+{"level":"info","message":"DELETE /users/675c7f25f0c43a5568a884a3","timestamp":"2024-12-13T18:38:29.631Z"}
+{"level":"info","message":"STATUS 204: DELETE /users/675c7f25f0c43a5568a884a3","timestamp":"2024-12-13T18:38:29.818Z"}
+{"level":"info","message":"DELETE /users/675c7f26f0c43a5568a884a9","timestamp":"2024-12-13T18:38:30.341Z"}
+{"level":"error","message":"STATUS 403 : DELETE /users/675c7f26f0c43a5568a884a9","timestamp":"2024-12-13T18:38:30.351Z"}
+{"level":"info","message":"DELETE /users/675c7f26f0c43a5568a884b1","timestamp":"2024-12-13T18:38:30.849Z"}
+{"level":"info","message":"STATUS 204: DELETE /users/675c7f26f0c43a5568a884b1","timestamp":"2024-12-13T18:38:31.068Z"}
+{"level":"info","message":"DELETE /users/675c7f27f0c43a5568a884b9","timestamp":"2024-12-13T18:38:31.633Z"}
+{"level":"error","message":"STATUS 401 : DELETE /users/675c7f27f0c43a5568a884b9","timestamp":"2024-12-13T18:38:31.640Z"}
+{"level":"info","message":"DELETE /users/675c7f27f0c43a5568a884bd","timestamp":"2024-12-13T18:38:32.324Z"}
+{"level":"error","message":"STATUS 401 : DELETE /users/675c7f27f0c43a5568a884bd","timestamp":"2024-12-13T18:38:32.330Z"}
+{"level":"info","message":"GET /users","timestamp":"2024-12-13T18:38:33.058Z"}
+{"level":"info","message":"STATUS 200: GET /users","timestamp":"2024-12-13T18:38:33.159Z"}
+{"level":"info","message":"GET /users","timestamp":"2024-12-13T18:38:33.729Z"}
+{"level":"error","message":"STATUS 403 : GET /users","timestamp":"2024-12-13T18:38:33.738Z"}
+{"level":"info","message":"GET /users","timestamp":"2024-12-13T18:38:34.387Z"}
+{"level":"error","message":"STATUS 401 : GET /users","timestamp":"2024-12-13T18:38:34.393Z"}
+{"level":"info","message":"STATUS 201: undefined undefined","timestamp":"2024-12-13T18:38:37.305Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:37.574Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:37.766Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:37.951Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:38.157Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:38.349Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:38.544Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:38.735Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-13T18:38:39.124Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:39.311Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:39.508Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:39.701Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:39.884Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:40.072Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-13T18:38:40.417Z"}
+{"level":"error","message":"STATUS 401 : undefined undefined","timestamp":"2024-12-13T18:38:40.824Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-13T18:38:41.516Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-13T18:38:41.972Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:42.427Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:42.701Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:42.986Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:43.261Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:43.598Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:43.879Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:44.157Z"}
+{"level":"info","message":"STATUS 204: undefined undefined","timestamp":"2024-12-13T18:38:44.500Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-13T18:38:44.868Z"}
+{"level":"error","message":"STATUS 400 : undefined undefined","timestamp":"2024-12-13T18:38:45.059Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-13T18:38:45.516Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-13T18:38:46.048Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-13T18:38:48.778Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-13T18:38:49.332Z"}
+{"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-13T18:38:51.534Z"}
+{"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-13T18:38:52.237Z"}

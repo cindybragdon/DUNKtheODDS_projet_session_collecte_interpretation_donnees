@@ -13,6 +13,29 @@ import { regexEmail } from '../utils/regex';
 
 export class MongoUserController {
 
+    public async getAllUsers(req: Request, res: Response): Promise<void> {
+
+    try {
+        const users = await MongoUserService.getAllUsers();
+
+        if(!users || users.length === 0) {
+            logger.error(`STATUS 404 : ${req.method} ${req.url}`);
+            console.log("STATUS 404: USERS NOT FOUND");
+            res.status(404).json([]);
+            return;
+        }
+        logger.info(`STATUS 200: ${req.method} ${req.url}`);
+        console.log("STATUS 200: GETALLUSERS WORKED");
+        res.status(200).json(users);
+    
+    } catch(error){
+        logger.error(`STATUS 500: ${req.method} ${req.url}`);
+        console.error(`STATUS 500: Error with ${req.method} ${req.url}`, error)
+        res.status(500).send("INTERNAL ERROR");
+    }
+    }
+
+
     public async login(req: Request, res: Response): Promise<void> {
         try {
 
@@ -26,7 +49,7 @@ export class MongoUserController {
                 return;
             }
 
-            const user = await MongoUserService.getUser(email);
+            const user = await MongoUserService.getUserByEmail(email);
                 
             if (!user) {
     

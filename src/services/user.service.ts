@@ -4,7 +4,12 @@ import { MongoUser } from '../models/mongoUser.model';
 
 export class MongoUserService {
 
-  public static async getUser(email:string) {
+  public static async getAllUsers() {
+    //https://mongoosejs.com/docs/api/model.html#Model.find()
+    return await MongoUser.find();
+  }
+
+  public static async getUserByEmail(email:string) {
     //https://mongoosejs.com/docs/api/model.html#Model.find()
     return await MongoUser.findOne({ email: email });
   }
