@@ -428,37 +428,7 @@ describe("JWT and role protections", () => {
           .set('Authorization', `Bearer ${userToken}`)
         expect(response.status).toBe(403);
       });
-      /*
-      it('it should not work if a user wants to delete someone else', async () => {
-        const newUser = {
-            username:"newUser",
-            password:"newUserPassword",
-            email:"newUser@gmail.com",
-            role:"Admin"
-        }
-  
-        const response = await request(app)
-          .delete(`/users/${adminId}`)
-          .set('Authorization', `Bearer ${userToken}`)
-          .send(newUser);
-        expect(response.status).toBe(403);
-      });
 
-      it('it should work if a admin wants to delete someone else', async () => {
-        const newUser = {
-            username:"newUser",
-            password:"newUserPassword",
-            email:"newUser@gmail.com",
-            role:"Admin"
-        }
-  
-        const response = await request(app)
-          .delete(`/users/${userId}`)
-          .set('Authorization', `Bearer ${adminToken}`)
-          .send(newUser);
-        expect(response.status).toBe(204);
-      });
-      */
 
       it('it should not work if someone without token wants to get all users', async () => {  
         const response = await request(app)
