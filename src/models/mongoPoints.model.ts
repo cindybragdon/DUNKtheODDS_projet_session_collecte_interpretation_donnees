@@ -25,7 +25,7 @@ const pointsSchema = new Schema<IPoints>({
         required:true, 
         validate: {
             validator: (value: number) => regexInt.test(value.toString()),
-            message: 'The price points to be a int number.'
+            message: 'The points needs to be a int number.'
         }
     },
     numberOfPlayedGames: {
@@ -41,7 +41,6 @@ const pointsSchema = new Schema<IPoints>({
 
 // Create a IPoints Mongoose Model.
 export const MongoPoints = model<IPoints>('Points', pointsSchema);
-  
 
 export function validateMongoPoints(points:IPoints) {
     const pointsInstance = new MongoPoints(points); //Create a points with the data 

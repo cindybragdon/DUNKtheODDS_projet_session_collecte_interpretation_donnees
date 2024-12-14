@@ -64,7 +64,6 @@ describe('GET ALL teamInfo', () => {
         ]));
     });
 
-
     test('Should return an error 404 if there is no teams scores', async () => {
         await MongoTeamInfo.collection.drop();
         const req = mockRequest({},{}) as Request;
@@ -74,5 +73,4 @@ describe('GET ALL teamInfo', () => {
 
         expect(res.status).toHaveBeenCalledWith(404);
     });
-
 });

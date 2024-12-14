@@ -8,8 +8,6 @@ const mongoTeamInfoController = new MongoTeamInfoController();
 
 router.use(express.json());
 
-
-
 /**
  * @swagger
  * /teamInfos:
@@ -54,9 +52,6 @@ router.use(express.json());
  *             example: "INTERNAL ERROR"
  */
 router.get('/teamInfos', mongoTeamInfoController.getAllTeamInfo);
-
-
-
 
 /**
  * @swagger

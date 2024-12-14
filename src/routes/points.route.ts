@@ -8,7 +8,6 @@ const mongoPointsController = new MongoPointsController();
 
 router.use(express.json());
 
-
 /**
  * @swagger
  * /points:
@@ -55,9 +54,7 @@ router.use(express.json());
  *             example: "INTERNAL ERROR"
  */
 
-
 router.get('/points', mongoPointsController.getAllPoints);
-
 
 /**
  * @swagger

@@ -9,7 +9,6 @@ const mongoUserController = new MongoUserController();
 
 router.use(express.json()); 
 
-
 /**
  * @swagger
  * /users/login:
@@ -190,7 +189,6 @@ router.put('/users/:id', authenticateToken, authorizeUser, verifyAdminUserRight,
  *         description: Internal server error.
  */
 router.delete('/users/:id', authenticateToken, authorizeUser, mongoUserController.deleteUser);
-
 
 /**
  * @swagger

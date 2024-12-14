@@ -9,8 +9,6 @@ import { MongoPoints } from "../../src/models/mongoPoints.model";
 //https://basarat.gitbook.io/typescript/intro-1/jest
 const mongoPointsController = new MongoPointsController();
 
-
-
 //Create false response 
 const mockResponse = (): Partial<Response> => {
     const res: Partial<Response> = {};
@@ -69,5 +67,4 @@ describe('GET ALL points', () => {
 
         expect(res.status).toHaveBeenCalledWith(404);
     });
-
 });

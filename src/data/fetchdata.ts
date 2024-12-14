@@ -1,9 +1,10 @@
 import { from } from "rxjs";
 import { ITeamInfo } from "../interfaces/teamInfo.interface";
 import { IPoints } from "../interfaces/points.interface";
-import { MongoTeamInfo } from "../models/mongoTeamInfo.model";
-import { MongoPoints } from "../models/mongoPoints.model";
+import { MongoTeamInfo, validateMongoTeamInfo } from "../models/mongoTeamInfo.model";
+import { MongoPoints, validateMongoPoints } from "../models/mongoPoints.model";
 import { MongoUser } from "../models/mongoUser.model";
+import { MongoGames, validateMongoGames } from "../models/mongoGame.model";
 
 function fetchData(url: string) {
   return from(fetch(url).then(response => response.json()));
@@ -65,9 +66,10 @@ function addWinsAndLossTeamInfo(listTeamsInfo:ITeamInfo[], game:any) {
 
 
 
-export function fetchAllData (urlGamesId: string) {
-  MongoPoints.collection.drop()
-  MongoTeamInfo.collection.drop()
+export function fetchAllData(urlGamesId: string) {
+  MongoPoints.collection.drop();
+  MongoTeamInfo.collection.drop();
+  MongoGames.collection.drop();
 
   fetchData(urlGamesId).subscribe({
     next(data) {
@@ -103,30 +105,52 @@ export function fetchAllData (urlGamesId: string) {
 
             mongoPointsToModify.team1Points += game.home_points;
             mongoPointsToModify.team2Points += game.away_points;
-            mongoPointsToModify.pointsDifference += game.home_points - game.away_points;
             mongoPointsToModify.numberOfPlayedGames += 1
             
           } else  {
 
             mongoPointsToModify.team1Points += game.away_points;
             mongoPointsToModify.team2Points += game.home_points;
-            mongoPointsToModify.pointsDifference += game.away_points - game.home_points;
             mongoPointsToModify.numberOfPlayedGames += 1
 
           }
+        }
+        //Games
+
+        if(validateMongoGames({
+          homeTeamName: game.home.name,
+          homePoints: game.home_points,
+          awayTeamName: game.away.name,
+          awayPoints: game.away_points,
+          scheduled: game.scheduled
+        })) {
+          const newGame = new MongoGames(
+            {
+              homeTeamName:game.home.name, 
+              homePoints:game.home_points, 
+              awayTeamName:game.away.name, 
+              awayPoints:game.away_points,
+              scheduled: game.scheduled
+            }).save()
+            console.log(newGame);
         }
       });
 
       //console.log(listTeamsScore.toString());
 
       listTeamsInfo.forEach(teamInfo => {
-        new MongoTeamInfo(teamInfo).save()
+        if(validateMongoTeamInfo(teamInfo)) {
+          new MongoTeamInfo(teamInfo).save()
+        }
       });
       listPointsMongo.sort((mongoPoints1, mongoPoints2) => mongoPoints1.team1Name.localeCompare(mongoPoints2.team1Name));
 
 
       listPointsMongo.forEach(points => {
-        new MongoPoints(points).save()
+        if(validateMongoPoints(points)) {
+          new MongoPoints(points).save()
+        }
+
       });
       //console.log(listTeamsScore.toString());
 

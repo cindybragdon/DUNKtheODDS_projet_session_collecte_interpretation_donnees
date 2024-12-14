@@ -329,7 +329,6 @@ describe('TESTS USER CONTROLLER', () => {
         });
     });
     
-    
     describe('DELETE user', () => {
     
     
@@ -377,7 +376,6 @@ describe('TESTS USER CONTROLLER', () => {
         });
     });
 
-
     describe('GET ALL USERINFO', () => {
     
         beforeEach(async () => {
@@ -401,7 +399,6 @@ describe('TESTS USER CONTROLLER', () => {
             expect(res.status).toHaveBeenCalledWith(200);
         });
     
-    
         test('Should return an error 404 if there is no users', async () => {
             await MongoUser.collection.drop();
             const req = mockRequest({},{}) as Request;
@@ -411,6 +408,5 @@ describe('TESTS USER CONTROLLER', () => {
     
             expect(res.status).toHaveBeenCalledWith(404);
         });
-    
     });
 })
