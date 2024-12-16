@@ -205,15 +205,17 @@ Configurez le fichier tsconfig.json selon vos besoins, par exemple :
 Ajoutez un script dans le fichier package.json pour démarrer le backend :
 ```json
 "scripts": {
-  "start": "ts-node src/index.ts",
-  "dev": "ts-node-dev --respawn src/index.ts",
-  "build": "tsc"
+    "set-env:test": "cross-env NODE_ENV=test",
+    "set-env:prod": "cross-env NODE_ENV=prod",
+    "start": "cross-env NODE_ENV=prod ts-node src/index.ts",
+    "test": "cross-env NODE_ENV=test jest --runInBand --detectOpenHandles",
+    "test:artillery": "cross-env NODE_ENV=test artillery run artillery-config.yml --output artillery-report.json"
 }
 ```
 Lancez le projet en mode développement :
 
 ```bash
-npm run dev
+npm start
 ```
 
 Vérifiez que tout fonctionne correctement en testant votre API.
