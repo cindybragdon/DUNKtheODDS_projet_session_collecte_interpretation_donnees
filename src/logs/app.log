@@ -6762,3 +6762,5 @@
 {"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-16T20:06:17.122Z"}
 {"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-16T20:06:20.803Z"}
 {"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-16T20:06:21.332Z"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-12-16T20:07:34.562Z"}
+{"level":"info","message":"STATUS 200: POST /users/login","timestamp":"2024-12-16T20:07:34.808Z"}
