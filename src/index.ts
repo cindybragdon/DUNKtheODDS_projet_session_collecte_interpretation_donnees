@@ -6,6 +6,7 @@ import { loggerMiddleWare } from './logs/winston';
 import userRoutes from "./routes/user.route"
 import pointsRoutes from "./routes/points.route"
 import teamInfoRoutes from "./routes/teamInfo.route"
+import gamesRoutes from "./routes/game.route"
 import { errorMiddleWaresHandler } from './middlewares/error.middleware';
 
 const cors = require('cors');
@@ -52,30 +53,23 @@ app.use('/', pointsRoutes);
 
 app.use('/', teamInfoRoutes);
 
+app.use('/', gamesRoutes);
+
 app.use(errorMiddleWaresHandler);
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Hello TypeScript with Express!');
 });
 
-/*
-app.listen(port, async () => {
 
-  console.log('MongoDB URL:', process.env.DB_PROD_URI_FINAL);
-  await connectToMongoDatabase(config.DB_PROD_URI_FINAL)
-  console.log("Serveur prod started");
-  console.log(`Server is running on port http://localhost:${port}`);
-  //fetchAllData(config.databaseFetchUrl);
-});
-*/
 console.log(config.nodeEnv);
 
 
 if(config.nodeEnv === "prod") {
-  // Démarrer le serveur prod
+
    app.listen(port, async () => {
     await connectToMongoDatabase(config.DB_PROD_URI_FINAL)
-    //populateMongoDatabase()
+    //fetchAllData(config.databaseFetchUrl);
     console.log("Serveur prod started");
     console.log(`Server is running on port http://localhost:${port}`);
   });

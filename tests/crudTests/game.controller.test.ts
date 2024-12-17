@@ -1,12 +1,12 @@
 import mongoose from "mongoose";
 import { connectToMongoDatabase } from "../../src/data/databaseMongo"
-import { MongoPointsController } from "../../src/controllers/points.controller"
 import { config } from "../../src/config/config"
 import { Response, Request} from "express";
-import { MongoPoints } from "../../src/models/mongoPoints.model";
+import { MongoGamesController } from "../../src/controllers/game.controller";
+import { MongoGames } from "../../src/models/mongoGame.model";
 
 //https://basarat.gitbook.io/typescript/intro-1/jest
-const mongoPointsController = new MongoPointsController();
+const mongoGamesController = new MongoGamesController();
 
 //Create false response 
 const mockResponse = (): Partial<Response> => {
@@ -36,33 +36,29 @@ afterAll(async () => {
 describe('GET ALL points', () => {
 
     beforeEach(async () => {
-        const testPoints = new MongoPoints({team1Name: "The - Balls", team2Name: "The inuits", team1Points: 5, team2Points: 6, pointsDifference: 6,numberOfPlayedGames: 5});
-        await testPoints.save();
-        const testPoints2 = new MongoPoints({team1Name: "The inuits", team2Name:"The big boats", team1Points: 3, team2Points: 8, pointsDifference: 8,numberOfPlayedGames: 3});
-        await testPoints2.save();
-        const testPoints3 = new MongoPoints({team1Name: "The big boats", team2Name:"The - Balls", team1Points: 6, team2Points: 2, pointsDifference: 2,numberOfPlayedGames: 6});
-        await testPoints3.save();
+        const testGame = new MongoGames({ homeTeamName: "Miggets" , homePoints: 217, awayTeamName: "Nuggers", awayPoints: 100, scheduled:"2024-10-23T02:00:00.000+00:00"});
+        await testGame.save();
     });
 
     afterEach(async () => {
-        await MongoPoints.deleteMany({});
+        await MongoGames.deleteMany({});
     });
 
-    test('Should return a list of points', async () => {
+    test('Should return a list of games', async () => {
         const req = mockRequest({},{}) as Request;
         const res = mockResponse() as Response;
 
-        await mongoPointsController.getAllPoints(req, res);
+        await mongoGamesController.getAllGames(req, res);
 
         expect(res.status).toHaveBeenCalledWith(200);
     });
 
-    test('Should return an error 404 if there is no points', async () => {
-        await MongoPoints.collection.drop();
+    test('Should return an error 404 if there is no games', async () => {
+        await MongoGames.collection.drop();
         const req = mockRequest({},{}) as Request;
         const res = mockResponse() as Response;
 
-        await mongoPointsController.getAllPoints(req, res);
+        await mongoGamesController.getAllGames(req, res);
 
         expect(res.status).toHaveBeenCalledWith(404);
     });

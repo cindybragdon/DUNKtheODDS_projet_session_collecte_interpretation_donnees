@@ -4,7 +4,6 @@ import { MongoTeamInfoController } from "../../src/controllers/teamInfo.controll
 import { config } from "../../src/config/config"
 import { Response, Request} from "express";
 import { MongoTeamInfo } from "../../src/models/mongoTeamInfo.model";
-import { before } from "node:test";
 
 //https://basarat.gitbook.io/typescript/intro-1/jest
 const mongoTeamInfoController = new MongoTeamInfoController();
@@ -64,7 +63,6 @@ describe('GET ALL teamInfo', () => {
         ]));
     });
 
-
     test('Should return an error 404 if there is no teams scores', async () => {
         await MongoTeamInfo.collection.drop();
         const req = mockRequest({},{}) as Request;
@@ -74,5 +72,4 @@ describe('GET ALL teamInfo', () => {
 
         expect(res.status).toHaveBeenCalledWith(404);
     });
-
 });

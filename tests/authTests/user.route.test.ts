@@ -18,7 +18,6 @@ afterAll(async () => {
 
 });
 
-
 describe("JWT and role protections", () => {
   
   describe('User Routes AUTH', () => {
@@ -128,14 +127,7 @@ describe("JWT and role protections", () => {
       });
     });
 
-
-
-
-
-
-    
     describe('PUT /users/:id', () => {
-
 
       let adminId:mongoose.Types.ObjectId;
       let userId:mongoose.Types.ObjectId;
@@ -153,9 +145,7 @@ describe("JWT and role protections", () => {
         userId = user._id;
         userToken = jwt.sign({ user: { _id: userId, role: 'User' } }, config.jwtSecret);
       });
-    
-      
-    
+
       afterEach(async () => {
         await MongoUser.deleteMany({});
       });
@@ -176,7 +166,6 @@ describe("JWT and role protections", () => {
         expect(response.status).toBe(200);
       });
 
-      
       it('should work if user wants to modify himself', async () => {
         const newUser = {
             username:"newUser",
@@ -207,8 +196,6 @@ describe("JWT and role protections", () => {
         expect(response.status).toBe(403);
       });
 
-
-      
       it('it should not work if a user wants to modify someone else', async () => {
         const newUser = {
             username:"newUser",
@@ -268,11 +255,7 @@ describe("JWT and role protections", () => {
       });
     });
 
-
-
-
     describe('DELETE /users/:id', () => {
-
 
       let adminId:mongoose.Types.ObjectId;
       let userId:mongoose.Types.ObjectId;
@@ -310,7 +293,6 @@ describe("JWT and role protections", () => {
         expect(response.status).toBe(204);
       });
 
-      
       it('should work if user wants to delete himself', async () => {
         const newUser = {
             username:"newUser",
@@ -383,6 +365,51 @@ describe("JWT and role protections", () => {
           .send(newUser);
         expect(response.status).toBe(401);
       });
+    });
+
+    describe('GET /users', () => {
+
+      let adminId:mongoose.Types.ObjectId;
+      let userId:mongoose.Types.ObjectId;
+      let adminToken: string;
+      let userToken: string;
+      beforeEach(async () => {
+        await MongoUser.deleteMany({});
+        const admin = new MongoUser({ username: 'auth', email: 'authest@gmail.com', password: 'IlovesOats', role: 'Admin' });
+        await admin.save();
+        adminId = admin._id;
+        adminToken = jwt.sign({ user: { _id: adminId, role: 'Admin' } }, config.jwtSecret);
+      
+        const user = new MongoUser({ username: 'auth2', email: 'authest2@gmail.com', password: 'IlovesOats', role: 'User' });
+        await user.save();
+        userId = user._id;
+        userToken = jwt.sign({ user: { _id: userId, role: 'User' } }, config.jwtSecret);
+      });
+    
+      afterEach(async () => {
+        await MongoUser.deleteMany({});
+      });
+
+      it('should work if a admin wants to get all users', async () => {
+        const response = await request(app)
+          .get(`/users`)
+          .set('Authorization', `Bearer ${adminToken}`)
+        expect(response.status).toBe(200);
+      });
+
+      it('should not work if a user wants to get all users', async () => {
+  
+        const response = await request(app)
+          .get(`/users`)
+          .set('Authorization', `Bearer ${userToken}`)
+        expect(response.status).toBe(403);
+      });
+
+      it('it should not work if someone without token wants to get all users', async () => {  
+        const response = await request(app)
+          .get(`/users`)
+        expect(response.status).toBe(401);
+      }); 
     });
   });
 });
