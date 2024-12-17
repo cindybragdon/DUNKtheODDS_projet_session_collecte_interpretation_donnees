@@ -220,7 +220,9 @@ npm start
 Vérifiez que tout fonctionne correctement en testant votre API.
 Complètez avec le frontend ici =>  https://github.com/cindybragdon/DUNKtheODDS_projet_session_collecte_interpretation_donnees_FE.git
 
-### Utilisateurs enregistres : 
+---
+
+### Utilisateurs enregistres
 admin
 admin@dunktheodds.com
 admin1
