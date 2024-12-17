@@ -44,7 +44,7 @@
 - [Contexte du travail](#contexte-du-travail)
 - [Outils et Technologies utilises](#outils-et-technologies-utilises)
 - [Installation et mise en route](#installation-et-mise-en-route)
-- [Etapes d'installation du backend](#etapes-d'installation-du-backend)
+- [Etapes dinstallation du backend](#etapes-dinstallation-du-backend)
 - [Utilisateurs enregistres](#utilisateurs-enregistres)
 
 
@@ -101,7 +101,7 @@ Développement d’un service de collecte, traitement et Stockage de données av
 
 ---
 
-## Etapes d'installation du backend
+## Etapes dinstallation du backend
 
 ### 1. **Cloner le dépôt**  
 Clonez le projet depuis le dépôt GitHub :  
