@@ -44,9 +44,8 @@
 - [Contexte du travail](#contexte-du-travail)
 - [Outils et Technologies utilises](#outils-et-technologies-utilises)
 - [Installation et mise en route](#installation-et-mise-en-route)
-- [Tests](#tests)
-- [Etapes deploiement](#etapes-deploiement)
-- [Documentation](#documentation)
+- [Etapes d'installation du backend](#etapes-d'installation-du-backend)
+- [Utilisateurs enregistres](#utilisateurs-enregistres)
 
 
 ---
@@ -102,7 +101,7 @@ Développement d’un service de collecte, traitement et Stockage de données av
 
 ---
 
-## **Étapes d'installation du backend**  
+## Etapes d'installation du backend
 
 ### 1. **Cloner le dépôt**  
 Clonez le projet depuis le dépôt GitHub :  
@@ -221,6 +220,22 @@ npm start
 Vérifiez que tout fonctionne correctement en testant votre API.
 Complètez avec le frontend ici =>  https://github.com/cindybragdon/DUNKtheODDS_projet_session_collecte_interpretation_donnees_FE.git
 
+### Utilisateurs enregistres : 
+admin
+admin@dunktheodds.com
+admin1
+admin1@dunktheodds.com
+admin2
+admin2@dunktheodds.com
+mot de passe : abc-123
+
+user
+user@dunktheodds.com
+user1
+user1@dunktheodds.com
+user2
+user2@dunktheodds.com
+mot de passe : abc-123
 
 
 [🔝 Retour en haut](#haut-de-page)
