@@ -8,7 +8,7 @@ import pointsRoutes from "./routes/points.route"
 import teamInfoRoutes from "./routes/teamInfo.route"
 import gamesRoutes from "./routes/game.route"
 import { errorMiddleWaresHandler } from './middlewares/error.middleware';
-
+import "./"
 const cors = require('cors');
 const app = express();
 const port = config.port;
@@ -39,8 +39,8 @@ app.use('/api/', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 
 const options = {
-  key: fs.readFileSync('key.pem'),
-  cert: fs.readFileSync('cert.pem')
+  key: fs.readFileSync('./src/keys/key.pem'),
+  cert: fs.readFileSync('./src/keys/cert.pem')
 };
 
 
