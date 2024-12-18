@@ -10,6 +10,4 @@ export const config = {
   nodeEnv: process.env.NODE_ENV || 'prod',
   DB_PROD_URI_FINAL: process.env.DB_PROD_URI_FINAL || "mongodb+srv://poirieroli:abc-123@dunktheodds.qfl1o.mongodb.net/TpFinal_Prod",
   DB_TEST_URI_FINAL: process.env.DB_TEST_URI_FINAL || "mongodb+srv://poirieroli:abc-123@dunktheodds.qfl1o.mongodb.net/TpFinal_Test"
-
-
 };

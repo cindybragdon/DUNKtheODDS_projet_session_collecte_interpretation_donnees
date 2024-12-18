@@ -85,17 +85,6 @@ if(config.nodeEnv === "prod") {
       });
 } else {
 
-/*
-  app.listen(port, async () => {
-    await connectToMongoDatabase(config.DB_TEST_URI_FINAL)
-    //populateMongoDatabase()
-    console.log("Serveur prod started");
-    console.log(`Server is running on port http://localhost:${port}`);
-  });
-/*
-  /*
-
-  */
 }
 
 export default app;

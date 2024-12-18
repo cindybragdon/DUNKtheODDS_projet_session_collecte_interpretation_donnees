@@ -1,6 +1,5 @@
 import { model, Schema } from "mongoose";
-import { IPoints } from "../interfaces/points.interface";
-import { regexInt, regexPositiveInt } from "../utils/regex";
+import { regexInt } from "../utils/regex";
 import { IGame } from "../interfaces/game.interface";
 
 // Create a Schema corresponding to the IPoints interface.

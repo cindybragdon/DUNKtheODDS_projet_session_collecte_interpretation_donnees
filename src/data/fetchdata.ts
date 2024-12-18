@@ -3,7 +3,6 @@ import { ITeamInfo } from "../interfaces/teamInfo.interface";
 import { IPoints } from "../interfaces/points.interface";
 import { MongoTeamInfo, validateMongoTeamInfo } from "../models/mongoTeamInfo.model";
 import { MongoPoints, validateMongoPoints } from "../models/mongoPoints.model";
-import { MongoUser } from "../models/mongoUser.model";
 import { MongoGames, validateMongoGames } from "../models/mongoGame.model";
 
 function fetchData(url: string) {
@@ -135,7 +134,6 @@ export function fetchAllData(urlGamesId: string) {
         }
       });
 
-      //console.log(listTeamsScore.toString());
 
       listTeamsInfo.forEach(teamInfo => {
         if(validateMongoTeamInfo(teamInfo)) {
@@ -151,8 +149,6 @@ export function fetchAllData(urlGamesId: string) {
         }
 
       });
-      //console.log(listTeamsScore.toString());
-
 
     },
     error(err) {
@@ -163,8 +159,5 @@ export function fetchAllData(urlGamesId: string) {
 
     }
   });
-
-
 }
 
-//fetchAllData(urlSchedule);
