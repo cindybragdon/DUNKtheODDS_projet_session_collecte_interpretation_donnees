@@ -171,12 +171,13 @@ npm install jsonwebtoken bcryptjs
 npm i --save-dev @types/jsonwebtoken @types/bcryptjs
 ```
 
-### 9.  Sécurité :
+### 9.  Tests :
 Installez Jest et d'autres outils pour les tests unitaires et fonctionnels :
 ```bash
 npm install --save-dev jest ts-jest @types/jest
 npm install supertest --save-dev
 npm i --save-dev @types/supertest
+npm install artillery --save-dev au readme
 ```
 
 ### 10.  Initialisation du projet TypeScript :
