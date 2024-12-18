@@ -141,6 +141,8 @@ npm install swagger-ui-express swagger-jsdoc
 npm install --save-dev @types/swagger-jsdoc
 ```
 
+Pour consulter les rapports swagger, rendez-vous au https://localhost:3000/api/
+
 ### 5. Connexion à la base de données et gestion des données :
 Installez les bibliothèques pour la base de données et les utilitaires :
 ```bash
@@ -217,6 +219,12 @@ Lancez le projet en mode développement :
 ```bash
 npm start
 ```
+
+Ouvrez une page à l'adresse https://localhost:3000.  Acceptez le contenu du site dangereux, il n'y a rien de dangereux ici!
+Vous aurez ceci : 
+![image](https://github.com/user-attachments/assets/5d20e88d-bb29-441b-a077-325806b3fdd1)
+
+
 
 Vérifiez que tout fonctionne correctement en testant votre API.
 Complètez avec le frontend ici =>  https://github.com/cindybragdon/DUNKtheODDS_projet_session_collecte_interpretation_donnees_FE.git
