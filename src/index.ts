@@ -37,12 +37,12 @@ app.use(cors());
 // Servir la documentation Swagger via '/api-docs'
 app.use('/api/', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
-/*
+
 const options = {
   key: fs.readFileSync('key.pem'),
   cert: fs.readFileSync('cert.pem')
 };
-*/
+
 
 
 app.use(loggerMiddleWare);
@@ -67,11 +67,20 @@ console.log(config.nodeEnv);
 
 if(config.nodeEnv === "prod") {
 
+  /*
    app.listen(port, async () => {
     await connectToMongoDatabase(config.DB_PROD_URI_FINAL)
     //fetchAllData(config.databaseFetchUrl);
     console.log("Serveur prod started");
     console.log(`Server is running on port http://localhost:${port}`);
+    });
+*/
+    https.createServer(options, app).listen(port, async () => {
+      await connectToMongoDatabase(config.DB_PROD_URI_FINAL)
+      //fetchAllData(config.databaseFetchUrl);
+      console.log("Serveur prod started");
+      console.log(`Server is running on port https://localhost:${port}`);
+
   });
 } else {
 
@@ -84,13 +93,7 @@ if(config.nodeEnv === "prod") {
   });
 /*
   /*
-  https.createServer(options, app).listen(port, async () => {
-    fetchProdData(config.pathDatabaseProducts);
-    await connectToMongoDatabase(config.DB_TEST_URI)
-    populateMongoDatabase()
-    console.log("Serveur test started");
-    console.log(`Server is running on port https://localhost:${port}`);
-  });
+
   */
 }
 

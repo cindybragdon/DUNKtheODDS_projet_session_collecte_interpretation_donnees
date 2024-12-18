@@ -224,7 +224,7 @@ router.delete('/users/:id', authenticateToken, authorizeUser, mongoUserControlle
  *         role: "User"
  *   securitySchemes:
  *     bearerAuth:
- *       type: http
+ *       type: https
  *       scheme: bearer
  *       bearerFormat: JWT
  */
