@@ -80,8 +80,9 @@ if(config.nodeEnv === "prod") {
       //fetchAllData(config.databaseFetchUrl);
       console.log("Serveur prod started");
       console.log(`Server is running on port https://localhost:${port}`);
-
-  });
+      }).on('error', (err: any) => {
+        console.error('HTTPS server error:', err);
+      });
 } else {
 
 /*
