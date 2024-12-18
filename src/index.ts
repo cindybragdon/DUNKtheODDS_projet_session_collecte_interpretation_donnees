@@ -33,7 +33,7 @@ const swaggerOptions = {
 // Générer la documentation à partir des options
 const swaggerDocs = swaggerJsdoc(swaggerOptions);
 
-app.use(cors());
+app.use(cors({ origin: 'https://dunktheodds-projet-session-collecte-yaqa.onrender.com' }));
 // Servir la documentation Swagger via '/api-docs'
 app.use('/api/', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
