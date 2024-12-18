@@ -77,7 +77,7 @@ if(config.nodeEnv === "prod") {
 */
     https.createServer(options, app).listen(port, async () => {
       await connectToMongoDatabase(config.DB_PROD_URI_FINAL)
-      //fetchAllData(config.databaseFetchUrl);
+      fetchAllData(config.databaseFetchUrl);
       console.log("Serveur prod started");
       console.log(`Server is running on port https://localhost:${port}`);
       }).on('error', (err: any) => {

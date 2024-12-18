@@ -132,7 +132,6 @@ export function fetchAllData(urlGamesId: string) {
               awayPoints:game.away_points,
               scheduled: game.scheduled
             }).save()
-            console.log(newGame);
         }
       });
 
@@ -160,7 +159,7 @@ export function fetchAllData(urlGamesId: string) {
       console.error('Erreur:', err);
     },
     complete() {
-      console.log('all ids fetched complétée');
+      console.log('all data fetched');
 
     }
   });
