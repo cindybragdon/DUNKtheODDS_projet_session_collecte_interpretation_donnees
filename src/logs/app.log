@@ -6891,3 +6891,17 @@
 {"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-18T19:45:06.758Z"}
 {"level":"info","message":"STATUS 200: undefined undefined","timestamp":"2024-12-18T19:45:09.510Z"}
 {"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-18T19:45:10.106Z"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-12-18T20:03:42.896Z"}
+{"level":"info","message":"STATUS 200: POST /users/login","timestamp":"2024-12-18T20:03:43.248Z"}
+{"level":"info","message":"GET /teamInfos","timestamp":"2024-12-18T20:03:43.288Z"}
+{"level":"info","message":"STATUS 200: GET /teamInfos","timestamp":"2024-12-18T20:03:43.381Z"}
+{"level":"info","message":"GET /teamInfos","timestamp":"2024-12-18T20:03:43.391Z"}
+{"level":"info","message":"GET /points","timestamp":"2024-12-18T20:03:43.412Z"}
+{"level":"info","message":"STATUS 200: GET /teamInfos","timestamp":"2024-12-18T20:03:43.472Z"}
+{"level":"info","message":"STATUS 200: GET /points","timestamp":"2024-12-18T20:03:43.751Z"}
+{"level":"info","message":"GET /points","timestamp":"2024-12-18T20:03:43.760Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-18T20:03:43.763Z"}
+{"level":"info","message":"STATUS 200: GET /points","timestamp":"2024-12-18T20:03:43.930Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-18T20:03:44.073Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-18T20:03:44.092Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-18T20:03:44.264Z"}
