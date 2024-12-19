@@ -6764,3 +6764,920 @@
 {"level":"error","message":"STATUS 404 : undefined undefined","timestamp":"2024-12-16T20:06:21.332Z"}
 {"level":"info","message":"POST /users/login","timestamp":"2024-12-16T20:07:34.562Z"}
 {"level":"info","message":"STATUS 200: POST /users/login","timestamp":"2024-12-16T20:07:34.808Z"}
+{"level":"info","message":"GET /teamInfos","timestamp":"2024-12-17T04:02:41.794Z"}
+{"level":"info","message":"STATUS 200: GET /teamInfos","timestamp":"2024-12-17T04:02:41.912Z"}
+{"level":"info","message":"GET /teamInfos","timestamp":"2024-12-17T04:02:41.918Z"}
+{"level":"info","message":"GET /points","timestamp":"2024-12-17T04:02:41.920Z"}
+{"level":"info","message":"STATUS 200: GET /teamInfos","timestamp":"2024-12-17T04:02:42.024Z"}
+{"level":"info","message":"STATUS 200: GET /points","timestamp":"2024-12-17T04:02:42.357Z"}
+{"level":"info","message":"GET /points","timestamp":"2024-12-17T04:02:42.362Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:02:42.365Z"}
+{"level":"info","message":"STATUS 200: GET /points","timestamp":"2024-12-17T04:02:42.586Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:02:42.798Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:02:42.802Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:02:43.026Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:02:43.517Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:02:43.739Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:02:43.743Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:02:43.966Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:04:10.790Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:04:11.213Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:04:11.216Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:04:11.440Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:05:01.065Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:05:01.489Z"}
+{"level":"info","message":"GET /favicon.ico","timestamp":"2024-12-17T04:05:01.880Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:06:50.265Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:06:50.685Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:06:53.276Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:06:53.701Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:06:58.270Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:06:58.697Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:07:07.271Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:07:07.698Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:07:12.269Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:07:12.859Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:07:16.270Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:07:16.688Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:07:18.270Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:07:18.689Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:07:26.270Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:07:26.694Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:07:28.038Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:07:28.457Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:07:34.718Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:07:35.137Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:08:24.292Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:08:24.713Z"}
+{"level":"info","message":"GET /teamInfos","timestamp":"2024-12-17T04:12:00.168Z"}
+{"level":"info","message":"STATUS 200: GET /teamInfos","timestamp":"2024-12-17T04:12:00.284Z"}
+{"level":"info","message":"GET /points","timestamp":"2024-12-17T04:12:12.668Z"}
+{"level":"info","message":"STATUS 200: GET /points","timestamp":"2024-12-17T04:12:13.089Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:12:47.284Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:12:47.711Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:12:47.714Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:12:47.935Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:12:53.266Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:12:53.741Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:12:57.274Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:12:57.705Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:13:15.265Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:13:15.707Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:13:23.275Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:13:23.697Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:13:26.276Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:13:26.708Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:13:27.271Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:13:27.703Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:13:53.277Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:13:53.702Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:13:53.705Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:13:53.930Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:13:57.275Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:13:57.703Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:14:04.277Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:14:04.697Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:14:14.273Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:14:14.701Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:16:04.277Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:16:04.700Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:16:05.277Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:16:05.600Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:16:07.276Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:16:07.695Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:16:09.277Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:16:09.713Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:16:10.270Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:16:10.686Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:16:14.275Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:16:14.706Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:16:44.661Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:16:45.087Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:17:04.314Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:17:04.760Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:17:05.470Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:17:05.898Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:17:09.281Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:17:09.711Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:17:13.626Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:17:14.058Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:17:18.211Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:17:18.638Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:17:20.853Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:17:21.300Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:17:22.534Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:17:22.975Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:17:25.670Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:17:26.099Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:18:01.271Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:18:01.696Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:18:58.704Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:18:59.143Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:21:07.270Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:21:07.693Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:21:16.279Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:21:16.695Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:21:56.285Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:21:56.718Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:21:59.557Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:21:59.991Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:22:02.065Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:22:02.490Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:22:22.792Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:22:23.212Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:22:29.253Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:22:29.670Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:55:48.231Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:55:48.650Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:55:48.653Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:55:48.874Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:55:49.666Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:55:49.991Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:55:50.806Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:55:51.126Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:56:09.370Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:56:09.792Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:56:09.982Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:56:10.207Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:56:10.211Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:56:10.436Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:57:11.266Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:57:11.688Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:57:14.278Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:57:14.696Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:57:21.277Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:57:21.708Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:57:28.787Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:57:29.262Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:58:42.280Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:58:42.711Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:58:42.715Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:58:42.936Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:58:56.152Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:58:56.575Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:58:56.683Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:58:57.716Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:58:57.719Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:58:57.966Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:59:37.152Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:59:37.571Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:59:37.575Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:59:37.795Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T04:59:47.732Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T04:59:48.153Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:00:18.521Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:00:18.940Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:00:19.789Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:00:20.206Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:00:20.209Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:00:20.427Z"}
+{"level":"info","message":"GET /teamInfos","timestamp":"2024-12-17T05:00:30.053Z"}
+{"level":"info","message":"STATUS 200: GET /teamInfos","timestamp":"2024-12-17T05:00:30.194Z"}
+{"level":"info","message":"GET /teamInfos","timestamp":"2024-12-17T05:00:30.195Z"}
+{"level":"info","message":"GET /points","timestamp":"2024-12-17T05:00:30.199Z"}
+{"level":"info","message":"STATUS 200: GET /teamInfos","timestamp":"2024-12-17T05:00:30.304Z"}
+{"level":"info","message":"STATUS 200: GET /points","timestamp":"2024-12-17T05:00:30.938Z"}
+{"level":"info","message":"GET /points","timestamp":"2024-12-17T05:00:30.941Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:00:30.944Z"}
+{"level":"info","message":"STATUS 200: GET /points","timestamp":"2024-12-17T05:00:31.163Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:00:31.367Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:00:31.370Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:00:31.889Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:00:36.404Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:00:36.822Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:00:36.826Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:00:37.044Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:02:15.876Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:02:16.299Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:02:16.302Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:02:16.529Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:02:21.715Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:02:22.133Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:02:23.905Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:02:24.325Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:03:11.925Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:03:12.345Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:03:12.349Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:03:12.572Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:03:46.385Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:03:46.808Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:03:46.811Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:03:47.029Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:04:19.715Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:04:20.133Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:04:21.002Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:04:21.419Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:04:23.357Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:04:23.774Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:04:33.705Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:04:34.126Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:04:35.207Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:04:35.631Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:04:37.475Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:04:37.894Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:04:41.530Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:04:41.950Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:04:42.379Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:04:42.699Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:04:42.702Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:04:42.930Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:05:12.271Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:05:12.697Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:05:32.267Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:05:32.692Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:05:39.263Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:05:39.683Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:05:40.268Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:05:40.589Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:05:46.269Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:05:46.699Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:05:50.271Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:05:50.690Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:05:54.276Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:05:54.702Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:05:56.277Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:05:56.693Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:06:02.262Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:06:02.680Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:06:12.276Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:06:12.694Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:06:14.265Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:06:14.691Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:06:17.265Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:06:17.681Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:06:19.509Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:06:19.927Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:06:19.931Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:06:20.150Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:07:02.182Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:07:02.614Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:07:07.034Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:07:07.445Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:07:11.707Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:07:12.130Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:07:16.073Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:07:16.494Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:07:23.041Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:07:23.479Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:08:25.279Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:08:25.699Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:08:26.268Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:08:26.586Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:08:38.272Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:08:38.702Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:08:41.928Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:08:42.347Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:08:54.395Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:08:54.810Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:09:03.437Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:09:03.856Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:09:14.254Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:09:14.686Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:09:23.498Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:09:24.435Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:09:26.368Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:09:27.143Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:09:28.614Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:09:29.035Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:10:04.046Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:10:04.475Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:10:04.479Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:10:04.695Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:10:07.444Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:10:07.862Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:10:09.522Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:10:09.944Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:10:22.092Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:10:22.516Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:10:24.430Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:10:24.857Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:10:26.025Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:10:26.990Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:10:27.458Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:10:27.859Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:10:27.861Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:10:28.102Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:10:43.418Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:10:43.851Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:12:30.292Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:12:30.715Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:12:36.275Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:12:36.690Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:12:43.275Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:12:43.716Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:12:45.279Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:12:45.708Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:13:00.275Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:13:00.695Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:13:02.271Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:13:02.695Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:13:04.265Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:13:04.690Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:13:11.277Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:13:11.698Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:13:19.269Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:13:19.687Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:13:24.275Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:13:24.690Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:13:34.276Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:13:34.696Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:13:36.274Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:13:36.696Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:13:38.275Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:13:38.710Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:13:42.277Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:13:42.708Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:13:59.278Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:13:59.783Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:14:06.702Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:14:07.121Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:14:07.124Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:14:07.352Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:14:34.610Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:14:35.026Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:14:35.029Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:14:35.465Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:15:14.931Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:15:15.350Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:15:15.353Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:15:15.576Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:15:32.796Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:15:33.218Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:15:33.221Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:15:33.450Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:17:44.276Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:17:44.693Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:17:53.284Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:17:53.708Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:17:53.712Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:17:53.933Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:18:15.814Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:18:16.231Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:18:17.390Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:18:17.820Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:18:21.373Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:18:21.799Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:19:09.534Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:19:09.951Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:19:25.186Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:19:25.602Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:19:46.534Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:19:46.982Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:19:56.843Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:19:57.265Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:19:59.890Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:20:00.311Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:20:01.523Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:20:01.941Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:20:03.175Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:20:03.596Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:20:05.314Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:20:05.731Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:20:10.444Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:20:10.869Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:20:43.611Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:20:44.034Z"}
+{"level":"info","message":"GET /teamInfos","timestamp":"2024-12-17T05:21:56.183Z"}
+{"level":"info","message":"STATUS 200: GET /teamInfos","timestamp":"2024-12-17T05:21:56.293Z"}
+{"level":"info","message":"GET /teamInfos","timestamp":"2024-12-17T05:21:56.294Z"}
+{"level":"info","message":"GET /points","timestamp":"2024-12-17T05:21:56.297Z"}
+{"level":"info","message":"STATUS 200: GET /teamInfos","timestamp":"2024-12-17T05:21:56.405Z"}
+{"level":"info","message":"STATUS 200: GET /points","timestamp":"2024-12-17T05:21:56.719Z"}
+{"level":"info","message":"GET /points","timestamp":"2024-12-17T05:21:56.722Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:21:56.725Z"}
+{"level":"info","message":"STATUS 200: GET /points","timestamp":"2024-12-17T05:21:56.946Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:21:57.140Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:21:57.144Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:21:57.374Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:22:10.210Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:22:10.632Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:22:10.635Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:22:10.859Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:22:36.938Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:22:37.360Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:22:38.397Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:22:38.826Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:22:39.809Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:22:40.229Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:24:16.656Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:24:17.079Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:24:17.082Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:24:17.303Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:24:26.453Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:24:26.876Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:24:26.879Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:24:27.102Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:24:55.431Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:24:55.853Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:24:55.856Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:24:56.081Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:36:08.696Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:36:09.118Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:36:09.122Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:36:09.353Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:39:13.788Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:39:14.213Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:39:15.639Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:39:16.074Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:39:18.546Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:39:18.960Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:39:20.472Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:39:20.904Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:39:55.284Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:39:55.706Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:39:55.710Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:39:55.931Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:40:08.571Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:40:09.296Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:40:09.299Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:40:09.512Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:40:31.591Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:40:32.010Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:40:45.501Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:40:45.925Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:40:45.928Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:40:46.148Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:41:10.878Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:41:11.295Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:41:11.298Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:41:11.516Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:41:26.848Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:41:27.265Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:41:27.268Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:41:27.494Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:41:42.072Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:41:42.494Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:43:17.752Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:43:18.175Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:43:18.178Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:43:18.397Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:43:58.386Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:43:58.806Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:43:58.808Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:43:59.034Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:44:20.877Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:44:21.308Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:44:28.457Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:44:28.885Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:44:32.897Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:44:33.319Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:44:35.269Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:44:35.687Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:44:40.469Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:44:40.892Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:45:23.069Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:45:23.489Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:45:23.492Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:45:23.713Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:45:59.417Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:45:59.836Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:45:59.839Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:46:00.061Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:46:16.713Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:46:17.134Z"}
+{"level":"info","message":"GET /teamInfos","timestamp":"2024-12-17T05:47:06.979Z"}
+{"level":"info","message":"STATUS 200: GET /teamInfos","timestamp":"2024-12-17T05:47:07.085Z"}
+{"level":"info","message":"GET /teamInfos","timestamp":"2024-12-17T05:47:07.086Z"}
+{"level":"info","message":"GET /points","timestamp":"2024-12-17T05:47:07.090Z"}
+{"level":"info","message":"STATUS 200: GET /teamInfos","timestamp":"2024-12-17T05:47:07.199Z"}
+{"level":"info","message":"STATUS 200: GET /points","timestamp":"2024-12-17T05:47:07.513Z"}
+{"level":"info","message":"GET /points","timestamp":"2024-12-17T05:47:07.516Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:47:07.519Z"}
+{"level":"info","message":"STATUS 200: GET /points","timestamp":"2024-12-17T05:47:07.737Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:47:07.959Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:47:07.962Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:47:08.189Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:47:09.920Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:47:10.342Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:47:10.345Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:47:10.571Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:49:19.316Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:49:19.735Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:49:19.738Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:49:19.966Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:50:02.370Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:50:02.798Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:50:08.279Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:50:08.706Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:50:09.588Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:50:10.018Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:50:29.653Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:50:30.293Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:50:33.088Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:50:33.523Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:50:46.952Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:50:47.373Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:50:47.375Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:50:47.600Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:51:02.878Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:51:03.298Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:51:03.301Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:51:03.526Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:51:55.185Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:51:55.615Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:51:55.618Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:51:55.836Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:52:14.707Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:52:15.135Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:52:15.138Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:52:15.355Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:52:44.123Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:52:44.534Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:52:44.537Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:52:44.761Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:52:53.481Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:52:53.901Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:53:05.353Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:53:05.772Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:53:20.262Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:53:20.684Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:53:20.687Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:53:21.006Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:53:31.111Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:53:31.531Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:53:34.740Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:53:35.167Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:53:35.170Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:53:35.390Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:53:42.475Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:53:42.895Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:53:49.749Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:53:50.214Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:53:50.217Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:53:50.444Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:54:05.411Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:54:05.837Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:54:05.841Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:54:06.062Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:54:07.276Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:54:07.699Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:54:29.211Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:54:29.651Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:54:34.058Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:54:34.477Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:54:34.480Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:54:34.702Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:54:36.743Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:54:37.167Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:54:43.103Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:54:43.534Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:54:50.777Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:54:51.197Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:54:54.078Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:54:54.498Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:54:55.668Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:54:56.102Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:54:59.408Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:54:59.841Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:55:02.675Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:55:03.094Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:55:58.974Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:55:59.400Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:55:59.403Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:55:59.626Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:56:21.182Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:56:21.612Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:56:21.616Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:56:21.914Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:57:10.865Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:57:11.288Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:57:11.291Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:57:11.512Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:57:36.548Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:57:36.968Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:57:50.777Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:57:51.257Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:58:08.868Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:58:09.299Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:58:34.392Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:58:34.813Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:58:34.816Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:58:35.035Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:58:57.718Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:58:58.134Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T05:58:58.137Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T05:58:58.359Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T06:00:00.392Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T06:00:00.824Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T06:00:00.827Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T06:00:01.055Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T06:00:14.375Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T06:00:14.797Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T06:00:14.800Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T06:00:15.030Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T06:01:31.107Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T06:01:31.548Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T06:01:31.551Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T06:01:31.772Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T06:01:38.836Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T06:01:39.266Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T06:01:39.269Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T06:01:39.490Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T06:02:20.982Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T06:02:21.403Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T06:02:23.336Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T06:02:23.884Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T06:03:24.068Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T06:03:24.498Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T06:03:24.501Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T06:03:24.722Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:00:13.482Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:00:15.248Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:00:15.255Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:00:15.486Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:00:57.621Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:00:58.058Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:00:58.063Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:00:58.292Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-17T20:12:40.960Z"}
+{"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-12-17T20:12:41.269Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:13:23.877Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:13:24.316Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:13:24.321Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:13:24.552Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-17T20:13:53.472Z"}
+{"level":"error","message":"STATUS 400 : POST /users/signIn","timestamp":"2024-12-17T20:13:53.581Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-17T20:14:46.293Z"}
+{"level":"error","message":"STATUS 400 : POST /users/signIn","timestamp":"2024-12-17T20:14:46.401Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-17T20:15:58.544Z"}
+{"level":"error","message":"STATUS 400 : POST /users/signIn","timestamp":"2024-12-17T20:15:58.652Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-17T20:16:36.301Z"}
+{"level":"error","message":"STATUS 400 : POST /users/signIn","timestamp":"2024-12-17T20:16:36.409Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-17T20:19:16.762Z"}
+{"level":"error","message":"STATUS 400 : POST /users/signIn","timestamp":"2024-12-17T20:19:16.870Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-17T20:19:45.142Z"}
+{"level":"error","message":"STATUS 400 : POST /users/signIn","timestamp":"2024-12-17T20:19:45.250Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-17T20:20:55.055Z"}
+{"level":"error","message":"STATUS 400 : POST /users/signIn","timestamp":"2024-12-17T20:20:55.168Z"}
+{"level":"info","message":"POST /users/signIn","timestamp":"2024-12-17T20:21:08.265Z"}
+{"level":"info","message":"STATUS 201: POST /users/signIn","timestamp":"2024-12-17T20:21:08.547Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:21:20.395Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:21:20.833Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:21:20.838Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:21:21.064Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:22:02.431Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:22:02.865Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:22:04.618Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:22:05.051Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:22:36.792Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:22:37.230Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:22:38.941Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:22:39.372Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:22:41.858Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:22:42.298Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:23:02.355Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:23:02.791Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:24:21.280Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:24:21.706Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:24:23.842Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:24:24.275Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:24:24.278Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:24:24.506Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:24:36.270Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:24:36.709Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:24:58.284Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:24:58.724Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:24:58.727Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:24:58.948Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:25:01.274Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:25:01.710Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:25:03.277Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:25:03.704Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:25:09.273Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:25:09.706Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:25:16.278Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:25:16.707Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:25:20.274Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:25:20.703Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:25:58.277Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:25:58.725Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:26:03.269Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:26:03.727Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:26:11.278Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:26:11.710Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:26:14.277Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:26:14.686Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:26:15.277Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:26:15.721Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:26:20.279Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:26:20.702Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:26:22.272Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:26:22.695Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:26:24.279Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:26:24.718Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:26:25.271Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:26:25.704Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:26:38.270Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:26:38.720Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:26:39.271Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:26:39.697Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:26:42.265Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:26:42.691Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:26:54.266Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:26:54.705Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:27:09.269Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:27:09.716Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:27:17.273Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:27:17.694Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:27:22.269Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:27:22.691Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:27:24.278Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:27:24.716Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:27:29.275Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:27:29.698Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:27:31.273Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:27:31.710Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:27:33.272Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:27:33.704Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:27:39.193Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:27:39.639Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:27:39.746Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:27:39.978Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:28:11.595Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:28:12.033Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:28:12.036Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:28:12.258Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:28:32.292Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:28:32.731Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:28:41.774Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:28:42.206Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:28:42.209Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:28:42.432Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:29:58.281Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:29:58.712Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:30:09.269Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:30:09.709Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:30:11.264Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:30:11.695Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:30:13.264Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:30:13.694Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:30:16.271Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:30:16.707Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:30:29.216Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:30:29.651Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:30:29.653Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:30:29.882Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:30:36.276Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:30:36.719Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:30:40.186Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:30:40.615Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:30:40.618Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:30:40.844Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:30:49.282Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:30:49.713Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:30:55.841Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:30:56.287Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:30:56.291Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:30:56.520Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:30:57.235Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:30:57.567Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:30:57.569Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:30:57.799Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:31:00.314Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:31:00.740Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:31:01.279Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:31:01.612Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:31:09.438Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:31:09.872Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:31:09.877Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:31:10.104Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:31:15.496Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:31:15.931Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:31:15.934Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:31:16.157Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:32:11.274Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:32:11.708Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:32:11.712Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:32:11.932Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:32:12.276Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:32:12.500Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:32:12.503Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:32:12.739Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:32:21.064Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:32:21.491Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:32:21.494Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:32:21.718Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:32:28.828Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:32:29.253Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:32:29.273Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:32:29.494Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:32:32.026Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:32:32.456Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:32:32.459Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:32:32.683Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:32:36.371Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:32:36.800Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:32:37.276Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:32:37.604Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:34:05.926Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:34:06.357Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:34:06.360Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:34:06.585Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:34:08.413Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:34:08.846Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:34:09.267Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:34:09.493Z"}
+{"level":"info","message":"GET /teamInfos","timestamp":"2024-12-17T20:34:32.383Z"}
+{"level":"info","message":"STATUS 200: GET /teamInfos","timestamp":"2024-12-17T20:34:32.492Z"}
+{"level":"info","message":"GET /teamInfos","timestamp":"2024-12-17T20:34:32.494Z"}
+{"level":"info","message":"GET /points","timestamp":"2024-12-17T20:34:32.497Z"}
+{"level":"info","message":"STATUS 200: GET /teamInfos","timestamp":"2024-12-17T20:34:32.606Z"}
+{"level":"info","message":"STATUS 200: GET /points","timestamp":"2024-12-17T20:34:32.941Z"}
+{"level":"info","message":"GET /points","timestamp":"2024-12-17T20:34:32.945Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:34:32.948Z"}
+{"level":"info","message":"STATUS 200: GET /points","timestamp":"2024-12-17T20:34:33.172Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:34:33.387Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:34:33.391Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:34:33.616Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:34:35.937Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:34:36.368Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:34:36.372Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:34:36.592Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:34:47.523Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:34:47.952Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:34:48.275Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:34:48.609Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:34:56.156Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:34:56.593Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:34:56.596Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:34:56.823Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:00.885Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:01.311Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:01.314Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:01.541Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:02.759Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:03.191Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:03.277Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:03.504Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:11.039Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:11.487Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:11.490Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:11.713Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:19.150Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:19.583Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:19.586Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:19.812Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:27.220Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:27.649Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:27.652Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:27.877Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:29.183Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:29.611Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:29.614Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:29.838Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:36.349Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:36.783Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:37.269Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:37.598Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:55.279Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:55.723Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:55.726Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:55.952Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:55.954Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:56.189Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:56.192Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:56.425Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:57.266Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:57.609Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:57.611Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:57.835Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:58.268Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:58.498Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:35:58.501Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:35:58.727Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:36:02.271Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:36:02.701Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:36:02.704Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:36:02.929Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:36:04.279Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:36:04.725Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:36:04.728Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:36:04.952Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:36:26.070Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:36:26.507Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:36:26.511Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:36:26.740Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:36:27.401Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:36:27.733Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:36:27.736Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:36:27.962Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:36:37.013Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:36:37.442Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:36:37.445Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:36:37.668Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:36:55.176Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:36:55.606Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:36:55.608Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:36:55.832Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:36:57.040Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:36:57.477Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:36:57.480Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:36:57.707Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:37:14.466Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:37:14.894Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-17T20:37:14.897Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-17T20:37:15.136Z"}
+{"level":"info","message":"GET /","timestamp":"2024-12-18T21:31:08.791Z"}
+{"level":"info","message":"GET /favicon.ico","timestamp":"2024-12-18T21:31:09.053Z"}
+{"level":"info","message":"GET /games","timestamp":"2024-12-18T21:31:11.935Z"}
+{"level":"info","message":"STATUS 200: GET /games","timestamp":"2024-12-18T21:31:12.385Z"}

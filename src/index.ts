@@ -8,6 +8,8 @@ import pointsRoutes from "./routes/points.route"
 import teamInfoRoutes from "./routes/teamInfo.route"
 import gamesRoutes from "./routes/game.route"
 import { errorMiddleWaresHandler } from './middlewares/error.middleware';
+import { AnalyseService } from './services/analyse.service';
+import { Analyse } from '../cron'
 
 const cors = require('cors');
 const app = express();
@@ -63,7 +65,7 @@ app.get('/', (req: Request, res: Response) => {
 
 
 console.log(config.nodeEnv);
-
+Analyse();
 
 if(config.nodeEnv === "prod") {
 
