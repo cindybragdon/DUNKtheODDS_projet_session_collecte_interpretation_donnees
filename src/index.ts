@@ -8,7 +8,10 @@ import pointsRoutes from "./routes/points.route"
 import teamInfoRoutes from "./routes/teamInfo.route"
 import gamesRoutes from "./routes/game.route"
 import { errorMiddleWaresHandler } from './middlewares/error.middleware';
+import { AnalyseService } from './services/analyse.service';
+import { Analyse } from '../cron'
 import "./"
+
 const cors = require('cors');
 const app = express();
 const port = config.port;
@@ -63,7 +66,7 @@ app.get('/', (req: Request, res: Response) => {
 
 
 console.log(config.nodeEnv);
-
+Analyse();
 
 if(config.nodeEnv === "prod") {
 
@@ -83,8 +86,6 @@ if(config.nodeEnv === "prod") {
       }).on('error', (err: any) => {
         console.error('HTTPS server error:', err);
       });
-} else {
-
-}
+} 
 
 export default app;
