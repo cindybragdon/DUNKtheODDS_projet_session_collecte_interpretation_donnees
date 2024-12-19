@@ -65,11 +65,9 @@ app.get('/', (req: Request, res: Response) => {
 });
 
 
-console.log(config.nodeEnv);
-Analyse();
 
 if(config.nodeEnv === "prod") {
-
+  Analyse();
   /*
    app.listen(port, async () => {
     await connectToMongoDatabase(config.DB_PROD_URI_FINAL)
