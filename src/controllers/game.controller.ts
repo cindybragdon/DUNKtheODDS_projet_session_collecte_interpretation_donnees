@@ -1,6 +1,5 @@
 import { Request, Response } from 'express';
 import { logger } from '../logs/winston';
-import { MongoPointsService } from '../services/points.service';
 import { MongoGameService } from '../services/game.service';
 
 //https://mongoosejs.com/docs/api/model.html#Model.find()

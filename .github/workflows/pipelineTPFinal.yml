@@ -1,4 +1,4 @@
-name: Pipeline TpFinal
+name: CI/CD Pipeline
 on:
   push:
     branches:

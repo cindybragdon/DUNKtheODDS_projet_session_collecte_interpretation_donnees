@@ -1,11 +1,11 @@
 config:
-  target: "http://localhost:3000"
+  target: "https://localhost:3000"
   phases:
     - name: "ARTILLERIES TESTS ARE COMING"  
       duration: 60   
       arrivalRate: 5  
   variables:
-    token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY3NGNjNDAyZGEyMzA3YmUxMDYwMDEzNyIsInVzZXJuYW1lIjoicGF1bCIsInBhc3N3b3JkIjoiJDJhJDEwJFdxZ2FIN0haMzVYMnBZMFBTR3NoSy5xWS5jRjdRaExXRWNzanA0RGsxT0Izd3Q1LmFxYmNpIiwiZW1haWwiOiJnYXl0YW5nQGdtYWlsLmNvbSIsInJvbGUiOiJBZG1pbiIsIl9fdiI6MH0sImlhdCI6MTczNDM3OTY1NCwiZXhwIjoxNzM0MzgzMjU0fQ.ON3BgGy3GZQ4QR6iGcCK9Ry1rQNfHRil6QbUWKFFjt8"
+    token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY3NGNjNDAyZGEyMzA3YmUxMDYwMDEzNyIsInVzZXJuYW1lIjoicGF1bCIsInBhc3N3b3JkIjoiJDJhJDEwJFdxZ2FIN0haMzVYMnBZMFBTR3NoSy5xWS5jRjdRaExXRWNzanA0RGsxT0Izd3Q1LmFxYmNpIiwiZW1haWwiOiJnYXl0YW5nQGdtYWlsLmNvbSIsInJvbGUiOiJBZG1pbiIsIl9fdiI6MH0sImlhdCI6MTczNDU1MTAzMiwiZXhwIjoxNzM0NTU0NjMyfQ.puLvmoRzWnqT_c4xuZMegAEa5rxayhAHFTwOB1r1ijA"
   defaults:
     headers:
       Authorization: "Bearer {{ token }}"
